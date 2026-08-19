@@ -142,6 +142,16 @@ class PageController extends Controller
     {
         return view('terms-of-use');
     }
+
+    public function RefundPolicy()
+    {
+        return view('refund-policy');
+    }
+
+    public function CancellationPolicy()
+    {
+        return view('cancellation-policy');
+    }
     
     public function Partners()
     {

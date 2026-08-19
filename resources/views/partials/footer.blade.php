@@ -75,6 +75,8 @@
                                      <li><a href="{{ route('blogs') }}">Blogs</a></li>
                                      <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
                                      <li><a href="{{ route('terms-of-use') }}">Terms of Use</a></li>
+                                     <li><a href="{{ route('refund-policy') }}">Refund Policy</a></li>
+                                     <li><a href="{{ route('cancellation-policy') }}">Cancellation Policy</a></li>
                                  </ul>
                              </div>
                              <div class="footer-4__menu">
