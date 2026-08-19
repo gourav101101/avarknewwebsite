@@ -164,6 +164,36 @@ class PageController extends Controller
         return view('Blogs', compact('blogs'));
     }
 
+    public function Sitemap()
+    {
+        $routeNames = [
+            'home', 'about', 'services', 'erp-system', 'crm-solutions',
+            'custom-software-development', 'web-application-development',
+            'mobile-app-development', 'cloud-and-data-migration',
+            'enterprise-integration-services', 'digital-healthcare-solution',
+            'tele-consultation', 'cms', 'products', 'hms',
+            'kiosk-management-system', 'feedback-management',
+            'business-marketing-tool', 'inventory-stock-management',
+            'pathology-diagnostic-management', 'white-label-practice-management',
+            'dialysis-management', 'enterprise-support-management',
+            'digital-signage-solutions', 'opd-management-system',
+            'industrial-asset-management', 'contact-us', 'privacy-policy',
+            'terms-of-use', 'refund-policy', 'cancellation-policy', 'partners', 'blogs',
+        ];
+
+        $pages = collect($routeNames)->map(fn ($name) => [
+            'url' => route($name),
+            'priority' => $name === 'home' ? '1.0' : (in_array($name, ['products', 'services', 'blogs']) ? '0.8' : '0.7'),
+            'changefreq' => in_array($name, ['home', 'blogs']) ? 'weekly' : 'monthly',
+        ]);
+
+        $blogs = Blog::published()->latest('updated_at')->get();
+
+        return response()
+            ->view('sitemap', compact('pages', 'blogs'))
+            ->header('Content-Type', 'application/xml; charset=UTF-8');
+    }
+
     public function BlogDetails($slug)
     {
         $blog = Blog::published()->where('slug', $slug)->firstOrFail();

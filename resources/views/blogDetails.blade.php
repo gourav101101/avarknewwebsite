@@ -1,8 +1,31 @@
 @extends('layouts.app')
 
-@section('title', 'Blogs Blog Details')
-@section('meta_description', 'Blogs Blog Details')
-@section('meta_keywords', 'home, Blogs Blog Details')
+@section('title', $blog->title)
+@section('meta_description', \Illuminate\Support\Str::limit(trim(preg_replace('/\s+/', ' ', strip_tags($blog->content))), 155))
+@section('meta_keywords', $blog->tag ?: 'Avark, healthcare technology, hospital management system')
+@section('og_title', $blog->title)
+@section('og_image', $blog->image ? asset($blog->image) : asset('assets/imgs/logo/kp-avark-logo.png'))
+@section('og_type', 'article')
+@section('canonical_url', route('blog-details', $blog->slug))
+
+@push('structured_data')
+<script type="application/ld+json">{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Article',
+    'headline' => $blog->title,
+    'description' => \Illuminate\Support\Str::limit(trim(preg_replace('/\s+/', ' ', strip_tags($blog->content))), 155),
+    'image' => $blog->image ? [asset($blog->image)] : [asset('assets/imgs/logo/kp-avark-logo.png')],
+    'datePublished' => optional($blog->published_at)->toAtomString(),
+    'dateModified' => optional($blog->updated_at)->toAtomString(),
+    'author' => ['@type' => 'Person', 'name' => $blog->author ?: 'Avark'],
+    'publisher' => [
+        '@type' => 'Organization',
+        'name' => 'Avark Pvt. Ltd.',
+        'logo' => ['@type' => 'ImageObject', 'url' => asset('assets/imgs/logo/kp-avark-logo.png')],
+    ],
+    'mainEntityOfPage' => route('blog-details', $blog->slug),
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}</script>
+@endpush
 
 @section('content')
 
@@ -11,7 +34,7 @@
     <div class=" container rr-container-1900">
         <div class="breadcrumb-section__wrapper" data-background="{{ asset('assets/imgs/home-1/hero/breadcrumb-bg-thumb.png') }}">
             <div class="breadcrumb-section__content text_center breadcrumb-section__space">
-                <h3 class="breadcrumb-section__title">Blog Details</h3>
+                <h2 class="breadcrumb-section__title">Blog Details</h2>
                 <ul class="breadcrumb-section__page">
                     <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                     <li><i class="fa-regular fa-angle-right"></i>Blogs</li>
@@ -31,11 +54,11 @@
                 <div class="col-12 col-lg-8">
                     <div class="details-image">
                         @if($blog->image)
-                            <img src="{{ asset($blog->image) }}" alt="img" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
+                            <img src="{{ asset($blog->image) }}" alt="{{ $blog->title }}" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
                         @endif
                     </div>
                     <div class="news-details-content">
-                        <h3>{{ $blog->title }}</h3>
+                        <h1>{{ $blog->title }}</h1>
                         {!! $blog->content !!}
 
                         <!-- <div class="sideber">
@@ -116,7 +139,7 @@
                                 <div class="recent-items">
                                     <div class="recent-thumb">
                                         @if($recent->image)
-                                            <img src="{{ asset($recent->image) }}" alt="img">
+                                            <img src="{{ asset($recent->image) }}" alt="{{ $recent->title }}">
                                         @else
                                             <img src="{{ asset('assets/imgs/inner/blog/blog-3.jpg') }}" alt="img">
                                         @endif

@@ -7,14 +7,23 @@
 
   <meta name="description" content="@yield('meta_description', 'Avark Healthcare Technology provides advanced Hospital Management Systems (HMS), ERP, CRM, and digital transformation solutions.')" />
   <meta name="keywords" content="@yield('meta_keywords', 'Healthcare Technology, HMS, ERP System, CRM Solutions, Avark, Digital Healthcare')" />
+  <meta name="robots" content="@yield('robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1')" />
+  <link rel="canonical" href="@yield('canonical_url', url()->current())" />
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:title" content="@yield('og_title', 'Avark Healthcare Technology | Digital Solutions')" />
   <meta property="og:description" content="@yield('meta_description', 'Avark Healthcare Technology provides advanced Hospital Management Systems (HMS), ERP, CRM, and digital transformation solutions.')" />
   <meta property="og:image" content="@yield('og_image', asset('assets/imgs/logo/kp-avark-logo.png'))" />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="@yield('og_type', 'website')" />
+  <meta property="og:url" content="@yield('canonical_url', url()->current())" />
+  <meta property="og:site_name" content="Avark" />
+  <meta property="og:locale" content="en_IN" />
   
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="@yield('og_title', 'Avark Healthcare Technology | Digital Solutions')" />
+  <meta name="twitter:description" content="@yield('meta_description', 'Avark Healthcare Technology provides advanced Hospital Management Systems (HMS), ERP, CRM, and digital transformation solutions.')" />
+  <meta name="twitter:image" content="@yield('og_image', asset('assets/imgs/logo/kp-avark-logo.png'))" />
+  <meta name="twitter:image:alt" content="@yield('og_title', 'Avark Healthcare Technology')" />
 
   <title>@yield('title', 'Home') | Avark Pvt. Ltd.</title>
 
@@ -47,6 +56,40 @@
 
   <!-- Main CSS -->
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+
+  @if (request()->routeIs('home'))
+  <script type="application/ld+json">{!! json_encode([
+      '@context' => 'https://schema.org',
+      '@type' => 'Organization',
+      'name' => 'Avark Pvt. Ltd.',
+      'url' => route('home'),
+      'logo' => asset('assets/imgs/logo/kp-avark-logo.png'),
+      'email' => 'support@avark.in',
+      'telephone' => '+91-7400920717',
+      'address' => [
+          '@type' => 'PostalAddress',
+          'streetAddress' => 'A-81, Vistara Suncity, Talawali Chanda, Indore Bypass Road',
+          'addressRegion' => 'Madhya Pradesh',
+          'postalCode' => '452016',
+          'addressCountry' => 'IN',
+      ],
+      'sameAs' => [
+          'https://www.facebook.com/share/17dqL3LKe4/',
+          'https://www.instagram.com/ark_healfit',
+          'https://in.linkedin.com/company/avark-pvt-ltd',
+          'https://youtube.com/@ark-healthcareandfitness2537',
+      ],
+  ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}</script>
+  <script type="application/ld+json">{!! json_encode([
+      '@context' => 'https://schema.org',
+      '@type' => 'WebSite',
+      'name' => 'Avark',
+      'alternateName' => 'Avark Pvt. Ltd.',
+      'url' => route('home'),
+  ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}</script>
+  @endif
+
+  @stack('structured_data')
 
 </head>
 <body>

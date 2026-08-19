@@ -88,4 +88,5 @@ Route::get('/refund-policy', [PageController::class, 'RefundPolicy'])->name('ref
 Route::get('/cancellation-policy', [PageController::class, 'CancellationPolicy'])->name('cancellation-policy');
 Route::get('/partners', [PageController::class, 'Partners'])->name('partners');
 Route::get('/blogs', [PageController::class, 'Blogs'])->name('blogs');
+Route::get('/sitemap.xml', [PageController::class, 'Sitemap'])->name('sitemap');
 Route::get('/blog-details/{slug}', [PageController::class, 'BlogDetails'])->name('blog-details');

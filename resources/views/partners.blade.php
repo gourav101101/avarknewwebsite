@@ -159,7 +159,7 @@
     <div class="container rr-container-1900">
         <div class="breadcrumb-section__wrapper" data-background="{{ asset('assets/imgs/home-1/hero/breadcrumb-bg-thumb.png') }}">
             <div class="breadcrumb-section__content text_center breadcrumb-section__space">
-                <h3 class="breadcrumb-section__title">Our Valued Partners</h3>
+                <h1 class="breadcrumb-section__title">Our Valued Partners</h1>
                 <ul class="breadcrumb-section__page">
                     <li><a href="{{ route('home') }}">Home <i class="fa-regular fa-angle-right"></i></a></li>
                     <li>Partners</li>
