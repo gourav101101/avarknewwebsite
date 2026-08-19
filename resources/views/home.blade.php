@@ -32,7 +32,7 @@
     }
 
     /* =============================================
-       SECTION 2: SERVICES — Enhanced Cards
+       SECTION 2: SERVICES â€” Enhanced Cards
        ============================================= */
     .service.rr-bg-gray {
         background: linear-gradient(180deg, #f0f4ed 0%, #f8faf6 100%) !important;
@@ -93,7 +93,7 @@
     }
 
     /* =============================================
-       SECTION 3: PARTNERS — Trust Enhancement
+       SECTION 3: PARTNERS â€” Trust Enhancement
        ============================================= */
     .brand-1 {
         position: relative;
@@ -147,7 +147,7 @@
     }
 
     /* =============================================
-       SECTION 4: ABOUT/FEATURES — Enhanced Premium
+       SECTION 4: ABOUT/FEATURES â€” Enhanced Premium
        ============================================= */
     .features-1 {
         position: relative;
@@ -216,7 +216,7 @@
     }
 
     /* =============================================
-       SECTION 5: PRODUCTS — Premium Cards
+       SECTION 5: PRODUCTS â€” Premium Cards
        ============================================= */
     .ai-features-2 {
         background: linear-gradient(180deg, #f0fdf4 0%, #f8faf6 50%, #fff 100%);
@@ -343,7 +343,7 @@
     }
 
     /* =============================================
-       SECTION 6: WHY CHOOSE ARK — Premium Deep Green
+       SECTION 6: WHY CHOOSE ARK â€” Premium Deep Green
        ============================================= */
     .choose-us__inner {
         background: linear-gradient(135deg, #dcfce7 0%, #f0fdf4 35%, #ecfdf5 65%, #d1fae5 100%) !important;
@@ -436,7 +436,7 @@
     }
 
     /* =============================================
-       SECTION 7: TESTIMONIALS — Enhanced Styling
+       SECTION 7: TESTIMONIALS â€” Enhanced Styling
        ============================================= */
     .testimonial__inner {
         background: linear-gradient(135deg, #dcfce7 0%, #f0fdf4 50%, #ecfdf5 100%) !important;
@@ -462,7 +462,7 @@
     }
 
     /* =============================================
-       SECTION 8: TECHNOLOGY/SUPPORT — Premium Polish
+       SECTION 8: TECHNOLOGY/SUPPORT â€” Premium Polish
        ============================================= */
     .technology {
         position: relative;
@@ -531,7 +531,7 @@
     }
 
     /* =============================================
-       SECTION 9: FAQ — Enhanced Styling
+       SECTION 9: FAQ â€” Enhanced Styling
        ============================================= */
     .faq.rr-bg-gray {
         background: linear-gradient(180deg, #f0fdf4 0%, #f8faf6 50%, #f0f4ed 100%) !important;
@@ -574,7 +574,207 @@
     }
 
     /* =============================================
-       HERO REDESIGN — Premium Healthcare Hero
+       SECTION 6: WHY CHOOSE US â€” Enhanced Styling
+       ============================================= */
+    .choose-us__content .title {
+        color: #0f172a;
+    }
+    .choose-us__content .desc {
+        color: #475569;
+        line-height: 1.8;
+    }
+    .choose-us__content .rr-btn-green.has--drk-gren {
+        background: linear-gradient(135deg, #16a34a, #15803d) !important;
+        box-shadow: 0 4px 16px rgba(22, 163, 74, 0.3);
+        transition: all 0.3s ease !important;
+    }
+    .choose-us__content .rr-btn-green.has--drk-gren:hover {
+        box-shadow: 0 8px 28px rgba(22, 163, 74, 0.4) !important;
+        transform: translateY(-2px);
+    }
+        border-radius: 16px !important;
+        border-left: 3px solid rgba(22, 163, 74, 0.3) !important;
+        transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+        position: relative;
+        overflow: hidden;
+    }
+    .choose-us__item::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(22, 163, 74, 0.03), transparent);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+    .choose-us__item:hover {
+        background: rgba(255, 255, 255, 0.95) !important;
+        transform: translateY(-6px) !important;
+        box-shadow: 0 16px 48px rgba(22, 163, 74, 0.12) !important;
+        border-left-color: #16a34a !important;
+        border-color: rgba(22, 163, 74, 0.25) !important;
+    }
+    .choose-us__item:hover::before {
+        opacity: 1;
+    }
+    .choose-us__item .title {
+        color: #1e293b;
+        font-weight: 700;
+    }
+    .choose-us__item .title a {
+        color: #1e293b;
+        transition: color 0.3s ease;
+    }
+    .choose-us__item:hover .title a {
+        color: #15803d;
+    }
+    .choose-us__item p {
+        color: #475569;
+        line-height: 1.7;
+    }
+
+    /* =============================================
+       SECTION 7: TESTIMONIALS â€” Enhanced Styling
+       ============================================= */
+    .testimonial__inner {
+        background: linear-gradient(135deg, #dcfce7 0%, #f0fdf4 50%, #ecfdf5 100%) !important;
+    }
+    .testimonial__content .sub-title.has--green {
+        display: inline-block !important;
+        padding: 8px 20px;
+        background: linear-gradient(135deg, rgba(21, 128, 61, 0.12), rgba(22, 163, 74, 0.18));
+        border: 1px solid rgba(21, 128, 61, 0.25);
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #15803d;
+        letter-spacing: 0.8px;
+    }
+    .testimonial__item {
+        transition: all 0.3s ease !important;
+    }
+    .testimonial__item .desc {
+        font-size: 17px !important;
+        line-height: 1.7 !important;
+        color: #334155 !important;
+    }
+
+    /* =============================================
+       SECTION 8: TECHNOLOGY/SUPPORT â€” Premium Polish
+       ============================================= */
+    .technology {
+        position: relative;
+    }
+    .technology::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(21, 128, 61, 0.15), transparent);
+    }
+    .technology__card {
+        border-radius: 24px !important;
+        overflow: hidden;
+        position: relative;
+    }
+    .technology__card::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, #22c55e, #15803d);
+    }
+    .technology__card .section-title__wrapper .sub-title {
+        color: #86efac;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+    }
+    .technology__card .rr-btn-green {
+        background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+        box-shadow: 0 4px 16px rgba(34, 197, 94, 0.4);
+        transition: all 0.3s ease !important;
+    }
+    .technology__card .rr-btn-green:hover {
+        box-shadow: 0 8px 28px rgba(34, 197, 94, 0.5);
+        transform: translateY(-2px);
+    }
+    .technology__wrapper {
+        border-radius: 24px !important;
+        overflow: hidden;
+        position: relative;
+    }
+    .technology__wrapper::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, #15803d, #22c55e);
+    }
+    .technology__wrapper .title {
+        color: #fff;
+    }
+    .technology .client-box {
+        transition: all 0.3s ease;
+    }
+    .technology .client-box:hover {
+        transform: scale(1.08);
+        box-shadow: 0 8px 24px rgba(22, 163, 74, 0.2);
+    }
+
+    /* =============================================
+       SECTION 9: FAQ â€” Enhanced Styling
+       ============================================= */
+    .faq.rr-bg-gray {
+        background: linear-gradient(180deg, #f0fdf4 0%, #f8faf6 50%, #f0f4ed 100%) !important;
+    }
+    .faq .section-title__wrapper .sub-title {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 20px;
+        background: linear-gradient(135deg, rgba(21, 128, 61, 0.08), rgba(34, 197, 94, 0.12));
+        border: 1px solid rgba(21, 128, 61, 0.18);
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #15803d;
+        letter-spacing: 0.8px;
+    }
+    .global-accordion-item {
+        transition: all 0.3s ease !important;
+        border-radius: 12px !important;
+        overflow: hidden;
+        margin-bottom: 12px !important;
+        border-left: 3px solid transparent !important;
+    }
+    .global-accordion-item:hover {
+        transform: translateX(4px);
+        border-left-color: #16a34a !important;
+    }
+    .global-accordion-header {
+        transition: background 0.3s ease;
+    }
+    .global-accordion-button.style .question {
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        color: #1e293b;
+    }
+    .global-accordion-body.style p {
+        line-height: 1.7 !important;
+        color: #475569 !important;
+    }
+
+    /* =============================================
+       HERO REDESIGN â€” Premium Healthcare Hero
        ============================================= */
 
     .hero-redesigned .hero__inner {
@@ -587,13 +787,35 @@
         align-items: center;
     }
 
+    /* Light Gradient Overlay â€” keeps text readable over background */
+    .hero-light-overlay {
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        background: 
+            linear-gradient(90deg, 
+                rgba(240, 244, 255, 0.95) 0%, 
+                rgba(240, 244, 255, 0.85) 25%, 
+                rgba(240, 244, 255, 0.6) 50%, 
+                rgba(240, 244, 255, 0.2) 75%, 
+                transparent 100%
+            ),
+            linear-gradient(180deg, 
+                rgba(240, 244, 255, 0.7) 0%, 
+                rgba(255, 255, 255, 0.2) 30%, 
+                rgba(255, 255, 255, 0.15) 70%, 
+                rgba(240, 244, 255, 0.6) 100%
+            );
+        pointer-events: none;
+    }
+
     /* Animated Grid Overlay */
     .hero-grid-overlay {
         position: absolute;
         inset: 0;
         background-image: 
-            linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+            linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
         background-size: 60px 60px;
         animation: gridShift 20s linear infinite;
         z-index: 0;
@@ -612,17 +834,17 @@
     }
     .hero-particle--1 {
         width: 6px; height: 6px;
-        background: #22c55e;
+        background: #00d4ff;
         top: 20%; left: 10%;
         animation: particleFloat 6s ease-in-out infinite;
-        box-shadow: 0 0 12px #22c55e;
+        box-shadow: 0 0 12px #00d4ff;
     }
     .hero-particle--2 {
         width: 4px; height: 4px;
-        background: #3b82f6;
+        background: #7c3aed;
         top: 60%; left: 5%;
         animation: particleFloat 8s ease-in-out infinite 1s;
-        box-shadow: 0 0 10px #3b82f6;
+        box-shadow: 0 0 10px #7c3aed;
     }
     .hero-particle--3 {
         width: 5px; height: 5px;
@@ -633,17 +855,17 @@
     }
     .hero-particle--4 {
         width: 3px; height: 3px;
-        background: #d0fc9c;
+        background: #67e8f9;
         top: 75%; right: 25%;
         animation: particleFloat 9s ease-in-out infinite 0.5s;
-        box-shadow: 0 0 8px #d0fc9c;
+        box-shadow: 0 0 8px #67e8f9;
     }
     .hero-particle--5 {
         width: 5px; height: 5px;
-        background: #22c55e;
+        background: #06b6d4;
         bottom: 15%; left: 40%;
         animation: particleFloat 7s ease-in-out infinite 3s;
-        box-shadow: 0 0 10px #22c55e;
+        box-shadow: 0 0 10px #06b6d4;
     }
     @keyframes particleFloat {
         0%, 100% { transform: translateY(0) translateX(0); opacity: 0.4; }
@@ -666,8 +888,8 @@
         gap: 10px;
         padding: 8px 20px;
         border-radius: 100px;
-        background: rgba(34, 197, 94, 0.1);
-        border: 1px solid rgba(34, 197, 94, 0.25);
+        background: rgba(0, 212, 255, 0.15);
+        border: 1px solid rgba(0, 212, 255, 0.3);
         backdrop-filter: blur(10px);
         margin-bottom: 28px;
     }
@@ -675,17 +897,17 @@
         width: 8px;
         height: 8px;
         border-radius: 50%;
-        background: #22c55e;
+        background: #00b4d8;
         animation: dotPulse 2s ease-in-out infinite;
     }
     @keyframes dotPulse {
-        0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(34,197,94,0.4); }
-        50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(34,197,94,0); }
+        0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(0,180,216,0.4); }
+        50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(0,180,216,0); }
     }
     .hero-badge__text {
         font-size: 14px;
-        font-weight: 600;
-        color: #d0fc9c;
+        font-weight: 700;
+        color: #0284c7 !important;
         letter-spacing: 0.3px;
     }
 
@@ -694,17 +916,23 @@
         font-size: 58px;
         font-weight: 800;
         line-height: 1.15;
-        color: #fff;
+        color: #0f172a !important;
         margin-bottom: 24px;
         letter-spacing: -0.5px;
     }
     .hero-title__gradient {
-        color: #7dd956;
+        background: linear-gradient(135deg, #0284c7, #7c3aed);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
         display: inline;
     }
     .hero-title__gradient div,
     .hero-title__gradient span {
-        color: #7dd956 !important;
+        background: linear-gradient(135deg, #0284c7, #7c3aed) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        background-clip: text !important;
     }
 
     @media (max-width: 1399px) {
@@ -721,9 +949,9 @@
     /* Description */
     .hero-desc {
         font-size: 17px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1.7;
-        color: rgba(255, 255, 255, 0.75);
+        color: #334155 !important;
         margin-bottom: 36px;
         max-width: 560px;
     }
@@ -735,11 +963,12 @@
         gap: 32px;
         margin-bottom: 40px;
         padding: 20px 28px;
-        background: rgba(255, 255, 255, 0.05);
-        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.05);
         border-radius: 16px;
         backdrop-filter: blur(12px);
         max-width: fit-content;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     }
     .hero-stats__item {
         display: flex;
@@ -749,20 +978,20 @@
     .hero-stats__number {
         font-size: 28px;
         font-weight: 800;
-        color: #d0fc9c;
+        color: #0284c7 !important;
         line-height: 1;
     }
     .hero-stats__label {
         font-size: 13px;
-        color: rgba(255, 255, 255, 0.55);
-        font-weight: 500;
+        color: #64748b !important;
+        font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.5px;
     }
     .hero-stats__divider {
         width: 1px;
         height: 40px;
-        background: rgba(255, 255, 255, 0.12);
+        background: rgba(0, 0, 0, 0.08);
     }
     @media (max-width: 575px) {
         .hero-stats {
@@ -799,15 +1028,15 @@
         display: inline-flex;
         align-items: center;
         gap: 14px;
-        color: #fff;
+        color: #0f172a !important;
         text-decoration: none;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 700;
         transition: all 0.3s ease;
         padding: 10px 0;
     }
     .hero-btn-secondary:hover {
-        color: #d0fc9c;
+        color: #0284c7 !important;
     }
     .hero-btn-secondary__icon {
         width: 48px;
@@ -816,11 +1045,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 2px solid rgba(255,255,255,0.2);
+        border: 2px solid rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease;
         font-size: 12px;
-        color: #fff;
+        color: #0284c7 !important;
         position: relative;
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
     .hero-btn-secondary__icon::before {
         content: '';
@@ -828,15 +1059,15 @@
         inset: -4px;
         border-radius: 50%;
         border: 2px solid transparent;
-        border-top-color: #22c55e;
+        border-top-color: #00d4ff;
         animation: iconSpin 3s linear infinite;
     }
     @keyframes iconSpin {
         to { transform: rotate(360deg); }
     }
     .hero-btn-secondary:hover .hero-btn-secondary__icon {
-        background: rgba(34,197,94,0.15);
-        border-color: rgba(34,197,94,0.4);
+        background: rgba(0,212,255,0.1);
+        border-color: rgba(0,212,255,0.2);
     }
 
     /* Trust Section */
@@ -853,9 +1084,10 @@
         width: 36px;
         height: 36px;
         border-radius: 50%;
-        border: 2px solid #1a3a0a;
+        border: 2px solid #fff;
         margin-left: -10px;
         object-fit: cover;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     .hero-trust__avatars img:first-child {
         margin-left: 0;
@@ -864,15 +1096,16 @@
         width: 36px;
         height: 36px;
         border-radius: 50%;
-        background: rgba(34, 197, 94, 0.2);
-        border: 2px solid rgba(34, 197, 94, 0.3);
+        background: #f0fdfa;
+        border: 2px solid #ccfbf1;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-left: -10px;
         font-size: 14px;
         font-weight: 700;
-        color: #d0fc9c;
+        color: #0f766e !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
     .hero-trust__text {
         display: flex;
@@ -884,15 +1117,15 @@
         gap: 2px;
     }
     .hero-trust__stars i {
-        color: #facc15;
+        color: #eab308 !important;
         font-size: 12px;
     }
     .hero-trust__text span {
         font-size: 13px;
-        color: rgba(255, 255, 255, 0.6);
+        color: #475569 !important;
     }
     .hero-trust__text strong {
-        color: #fff;
+        color: #0f172a !important;
     }
     @media (max-width: 575px) {
         .hero-trust { flex-direction: column; align-items: flex-start; gap: 8px; }
@@ -932,7 +1165,7 @@
         width: 320px;
         height: 320px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(34, 197, 94, 0.25), transparent 70%);
+        background: radial-gradient(circle, rgba(0, 212, 255, 0.25), transparent 70%);
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -942,7 +1175,7 @@
     .hero-phone__glow--secondary {
         width: 420px;
         height: 420px;
-        background: radial-gradient(circle, rgba(34, 197, 94, 0.08), transparent 70%);
+        background: radial-gradient(circle, rgba(124, 58, 237, 0.12), transparent 70%);
         animation: glowPulse 6s ease-in-out infinite 1s;
     }
     @keyframes glowPulse {
@@ -957,12 +1190,12 @@
         align-items: center;
         gap: 12px;
         padding: 14px 18px;
-        background: rgba(20, 30, 15, 0.75);
+        background: rgba(255, 255, 255, 0.9);
         backdrop-filter: blur(20px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 1);
         border-radius: 14px;
         z-index: 5;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
         animation: cardFloat 5s ease-in-out infinite;
         min-width: 190px;
     }
@@ -986,13 +1219,13 @@
     .hero-float-card__value {
         font-size: 18px;
         font-weight: 800;
-        color: #fff;
+        color: #0f172a !important;
         line-height: 1.2;
     }
     .hero-float-card__label {
         font-size: 11px;
-        color: rgba(255, 255, 255, 0.55);
-        font-weight: 500;
+        color: #64748b !important;
+        font-weight: 600;
         white-space: nowrap;
     }
 
@@ -1033,13 +1266,51 @@
         .hero-phone__glow--secondary { width: 300px; height: 300px; }
     }
 
+
+    /* Hero-specific CTA Button Override */
+    body .hero-redesigned a.rr-btn-green.hero-btn-primary {
+        background: linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%) !important;
+        box-shadow: 0 8px 24px rgba(0, 212, 255, 0.35) !important;
+        border: none !important;
+    }
+    body .hero-redesigned a.rr-btn-green.hero-btn-primary::before {
+        background: linear-gradient(135deg, #0891b2 0%, #6d28d9 100%) !important;
+    }
+    body .hero-redesigned a.rr-btn-green.hero-btn-primary * {
+        color: #fff !important;
+    }
+    body .hero-redesigned a.rr-btn-green.hero-btn-primary:hover {
+        box-shadow: 0 12px 32px rgba(0, 212, 255, 0.5) !important;
+        transform: translateY(-2px);
+    }
+
+    /* --- Navbar Overrides for Light Hero --- */
+    .header__logo img {
+        filter: brightness(0) !important;
+    }
+    .header-area-1 .main-menu > ul > li > a {
+        color: #0f172a !important;
+        font-weight: 600;
+    }
+    .header-area-1 .main-menu > ul > li:hover > a {
+        color: #0284c7 !important;
+        text-shadow: none !important;
+    }
+    .header-area-1 .header-right .side-toggle .bar-icon span {
+        background-color: #0f172a !important;
+    }
+    .header-area-1 .main-menu > ul > li > a::after {
+        background: #0284c7 !important;
+    }
 </style>
 
 
 <section class="hero hero-redesigned">
-    <div class="hero__inner" data-background="{{ asset('assets/imgs/home-1/hero/bg.png') }}">
+    <div class="hero__inner" style="background-color: #f0f4ff;" data-background="{{ asset('assets/imgs/home-1/hero/bg-light.jpg') }}">
         <!-- Animated background grid -->
         <div class="hero-grid-overlay"></div>
+        <!-- Light overlay for text readability -->
+        <div class="hero-light-overlay"></div>
         <!-- Floating particles -->
         <div class="hero-particle hero-particle--1"></div>
         <div class="hero-particle hero-particle--2"></div>
@@ -1056,7 +1327,7 @@
 
                         <div class="hero-badge" data-aos="fade-down" data-aos-delay="200">
                             <span class="hero-badge__dot"></span>
-                            <span class="hero-badge__text">🚀 #1 Healthcare Technology Platform in India</span>
+                            <span class="hero-badge__text"><i class="fa-solid fa-rocket" style="margin-right: 6px;"></i> #1 Healthcare Technology Platform in India</span>
                         </div>
 
                         <h1 class="hero-title rr-title-anim-2">
@@ -1139,7 +1410,7 @@
 
                         <!-- Floating stat cards -->
                         <div class="hero-float-card hero-float-card--1" data-aos="fade-left" data-aos-delay="800">
-                            <div class="hero-float-card__icon" style="background: linear-gradient(135deg, #22c55e, #16a34a);">
+                            <div class="hero-float-card__icon" style="background: linear-gradient(135deg, #00d4ff, #0891b2);">
                                 <i class="fa-solid fa-hospital"></i>
                             </div>
                             <div class="hero-float-card__info">
@@ -1149,7 +1420,7 @@
                         </div>
 
                         <div class="hero-float-card hero-float-card--2" data-aos="fade-right" data-aos-delay="1000">
-                            <div class="hero-float-card__icon" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+                            <div class="hero-float-card__icon" style="background: linear-gradient(135deg, #7c3aed, #5b21b6);">
                                 <i class="fa-solid fa-users"></i>
                             </div>
                             <div class="hero-float-card__info">
@@ -1332,7 +1603,7 @@
                 <div class="features-1">
                     <div class="features-1__content" data-aos="fade-right" data-aos-duration="900">
                         <div class="section-title__wrapper">
-                            <h2 class="sub-title">About Us — Who We Are</h2>
+                            <h2 class="sub-title">About Us â€” Who We Are</h2>
                             <h2 class="title rr-title-anim-1">Transforming Healthcare Through Technology Since 2019</h2>
                             <p class="desc">Avark Healthcare Technology Pvt. Ltd. is a healthcare-focused technology company committed to helping hospitals, clinics, and healthcare organizations operate smarter, faster, and more efficiently. Our integrated digital platform empowers healthcare providers to replace fragmented processes with a centralized, intelligent, and data-driven system.</p>
 
@@ -1729,8 +2000,8 @@
                     <div class="section-title__wrapper">
                         <h2 class="sub-title"><span><img loading="lazy" src="assets/imgs/icon/massage.png" alt="image"></span>Support &
                             Help</h2>
-                        <h2 class="title rr-title-anim-1">Got Questions? We’ve Got Answers </h2>
-                        <p class="desc">Find clear answers to common questions about ARK Hospital Management Software, Inventory Management, Pathology & Diagnostic solutions — covering features, pricing, security, and implementation.</p>
+                        <h2 class="title rr-title-anim-1">Got Questions? Weâ€™ve Got Answers </h2>
+                        <p class="desc">Find clear answers to common questions about ARK Hospital Management Software, Inventory Management, Pathology & Diagnostic solutions â€” covering features, pricing, security, and implementation.</p>
 
                         <a href="{{ route('contact-us') }}" class="rr-btn-green">
                             <span class="btn-wrap">
@@ -1764,7 +2035,7 @@
                             <div class="global-accordion-button style" data-bs-toggle="collapse" role="group"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <div class="question">
-                                    Are Avark’s software solutions secure?
+                                    Are Avarkâ€™s software solutions secure?
                                 </div>
                             </div>
                         </div>
