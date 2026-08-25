@@ -77,7 +77,7 @@
                             <input type="file" name="avatar" id="avatarInput" accept="image/*">
                         </div>
                         <div class="image-preview" id="avatarPreview" style="display: {{ $testimonial->avatar ? 'block' : 'none' }}; text-align: center;">
-                            <img id="previewImg" src="{{ $testimonial->avatar ? asset($testimonial->avatar) : '' }}" alt="Preview" class="table-avatar" style="width: 80px; height: 80px;">
+                            <img loading="lazy" decoding="async" id="previewImg" src="{{ $testimonial->avatar ? asset($testimonial->avatar) : '' }}" alt="Preview" class="table-avatar" style="width: 80px; height: 80px;">
                         </div>
                     </div>
 

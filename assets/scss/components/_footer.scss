@@ -287,7 +287,7 @@
                     list-style: none;
 
                     & a {
-                        background: #384BFF;
+                        background: #7444FD;
                         border-radius: 100px;
                         width: 40px;
                         height: 40px;
@@ -333,7 +333,7 @@
 
                 &:hover {
                     .icon {
-                        background: linear-gradient(90deg, #384BFF 0%, #A62DF4 100%);
+                        background: linear-gradient(90deg, #7444FD 0%, #A62DF4 100%);
                         border-radius: 8px;
                     }
                 }
@@ -589,7 +589,7 @@
 
                         .rr-btn-green {
                             padding: 14px 25px;
-                            background: linear-gradient(90deg, #384BFF 0%, #A62DF4 100%);
+                            background: linear-gradient(90deg, #7444FD 0%, #A62DF4 100%);
                             border-radius: 100px;
 
                             .text-one {
@@ -758,7 +758,7 @@
         margin-bottom: 24px;
         border-radius: 32px;
         z-index: 0;
-        background: linear-gradient(90deg, #0E0E0C 0%, #004FFC 100%);
+        background: linear-gradient(90deg, #0E0E0C 0%, #7444FD 100%);
 
         @media #{$lg} {
             margin: 0px;
@@ -1493,7 +1493,7 @@
         position: absolute;
         filter: blur(400px);
         border-radius: 500px;
-        background: #1AD079;
+        background: #7444FD;
 
         &_2 {
             left: -210px;
@@ -1509,21 +1509,28 @@
 }
 
 .copyright-4 {
+    &__area {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+
     &__wrap {
-        padding: 24px 72px;
-        margin-right: -100%;
-        margin-left: -72px;
+        width: 100%;
+        padding: 24px max(24px, calc((100% - 1350px) / 2));
+        margin: 0;
+        text-align: center;
         background-color: var(--white);
+        border-top: 1px solid rgba(116, 68, 253, 0.12);
 
         @media #{$md} {
-            padding: 18px;
-            margin: 0 -15px;
-            text-align: center;
+            padding: 18px 24px;
         }
     }
 
     &__text {
         .text {
+            margin: 0;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
@@ -1903,7 +1910,7 @@
                     }
 
                     &:hover {
-                        background-color: #A0EA71;
+                        background-color: #7444FD;
                     }
                 }
             }
@@ -2036,7 +2043,7 @@
         font-size: 18px;
         font-weight: 600;
         line-height: 26px;
-        color: #173401;
+        color: #021a30;
         padding: 4px 19.3px;
         border-radius: 500px;
         letter-spacing: 0.5px;
@@ -2203,7 +2210,7 @@
 }
 
 .copyright {
-    background-color: #173401;
+    background-color: #021a30;
 
     &__wrap {
         display: flex;

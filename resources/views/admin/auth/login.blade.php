@@ -17,7 +17,7 @@
     <div class="login-page">
         <div class="login-card">
             <div class="login-logo">
-                <img src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="Avark">
+                <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="Avark">
                 <h2>Welcome Back</h2>
                 <p>Sign in to Avark Admin Panel</p>
             </div>

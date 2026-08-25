@@ -7,14 +7,16 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Cache;
 use App\Models\Blog;
 use App\Models\Testimonial;
+use App\Models\ArkHimsShort;
 
 class PageController extends Controller
 {
     public function home()
     {
         $testimonials = Testimonial::active()->ordered()->get();
+        $arkHimsShorts = ArkHimsShort::active()->ordered()->limit(3)->get();
 
-        return view('home', compact('testimonials'));
+        return view('home', compact('testimonials', 'arkHimsShorts'));
     }
 
     public function about()

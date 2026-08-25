@@ -27,7 +27,7 @@
 <div class="container rr-container-1350">
     <div class="service-details__top">
     <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="{{ asset('assets/imgs/inner/service-detils/kp-inner-2.png') }}" alt="img">
+        <img loading="eager" decoding="async" fetchpriority="high" src="{{ asset('assets/imgs/inner/service-detils/kp-inner-2.png') }}" alt="img">
     </div>
     </div>
     <div class="row">
@@ -47,7 +47,7 @@
         </div>
         </div>
         <div class="media" data-aos="fade-up" data-aos-duration="900">
-            <img src="{{ asset('assets/imgs/inner/service-detils/erpservie.png') }}" alt="ERP System">
+            <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/inner/service-detils/erpservie.png') }}" alt="ERP System">
         </div>
     </div>
     <div class="col-lg-8 col-12">
@@ -134,9 +134,9 @@
                     <div id="erpf1" class="accordion-collapse collapse show" data-bs-parent="#erpFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Definition and purpose of ERP systems.</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Understanding how ERP software works.</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Benefits of implementing ERP within an organization.</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Definition and purpose of ERP systems.</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Understanding how ERP software works.</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Benefits of implementing ERP within an organization.</span></li>
                             </ul>
                         </div>
                     </div>
@@ -146,12 +146,12 @@
                     <div id="erpf2" class="accordion-collapse collapse" data-bs-parent="#erpFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Centralized Database</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Workflow Automation</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Real-Time Reporting & Analytics</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Multi-Department Integration</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Role-Based Access Control</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Dashboard & MIS Reports</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Centralized Database</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Workflow Automation</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Real-Time Reporting & Analytics</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Multi-Department Integration</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Role-Based Access Control</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Dashboard & MIS Reports</span></li>
                             </ul>
                         </div>
                     </div>
@@ -161,12 +161,12 @@
                     <div id="erpf3" class="accordion-collapse collapse" data-bs-parent="#erpFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Requirement Analysis</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>System Configuration</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Data Migration</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>User Training</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Go-Live Support</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Continuous Maintenance</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Requirement Analysis</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>System Configuration</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Data Migration</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>User Training</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Go-Live Support</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Continuous Maintenance</span></li>
                             </ul>
                         </div>
                     </div>
@@ -176,12 +176,12 @@
                     <div id="erpf4" class="accordion-collapse collapse" data-bs-parent="#erpFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Finance & Accounting</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Human Resource Management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Inventory & Procurement</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Sales & Customer Management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Production Management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Asset Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Finance & Accounting</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Human Resource Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Inventory & Procurement</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Sales & Customer Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Production Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Asset Management</span></li>
                             </ul>
                         </div>
                     </div>
@@ -191,10 +191,10 @@
                     <div id="erpf5" class="accordion-collapse collapse" data-bs-parent="#erpFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Third-Party Integrations</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>API Connectivity</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Data Synchronization</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Centralized Information Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Third-Party Integrations</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>API Connectivity</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Data Synchronization</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Centralized Information Management</span></li>
                             </ul>
                         </div>
                     </div>
@@ -223,8 +223,8 @@
 <div class="container rr-container-1350">
     <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
         <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Call to Action <img class="right-shape"
+        <h2 class="sub-title white"><img loading="lazy" decoding="async" class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
+            alt="image">Call to Action <img loading="lazy" decoding="async" class="right-shape"
             src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
         <h2 class="title rr-title-anim-1 white">Ready to Transform Your Business?</h2>
         <p class="cta-section__dec">Experience the power of our ERP solutions. Schedule a personalized demo with our experts today.</p>

@@ -55,7 +55,8 @@
   <link rel="stylesheet" href="{{ asset('assets/vandor/animation/aos.css') }}" />
 
   <!-- Main CSS -->
-  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}?v={{ filemtime(public_path('assets/css/style.css')) }}" />
+  <link rel="stylesheet" href="{{ asset('assets/css/site-theme.css') }}?v={{ filemtime(public_path('assets/css/site-theme.css')) }}" />
 
   @if (request()->routeIs('home'))
   <script type="application/ld+json">{!! json_encode([
@@ -92,7 +93,7 @@
   @stack('structured_data')
 
 </head>
-<body>
+<body class="site-theme">
 
 @include('partials.header')
 
@@ -116,11 +117,7 @@
 
 <!-- GSAP -->
 <script src="{{ asset('assets/vandor/gsap/gsap.min.js') }}"></script>
-<script src="{{ asset('assets/vandor/gsap/ScrollSmoother.min.js') }}"></script>
 <script src="{{ asset('assets/vandor/gsap/ScrollTrigger.min.js') }}"></script>
-<script src="{{ asset('assets/vandor/gsap/SplitText.min.js') }}"></script>
-<script src="{{ asset('assets/vandor/gsap/SplitType.js') }}"></script>
-<script src="{{ asset('assets/vandor/gsap/customEase.js') }}"></script>
 
 <!-- Odometer -->
 <script src="{{ asset('assets/vandor/odometer/odometer.min.js') }}"></script>
@@ -134,10 +131,6 @@
 
 <!-- AOS Animation -->
 <script src="{{ asset('assets/vandor/animation/aos.js') }}"></script>
-
-<!-- GSAP Extra -->
-<script src="{{ asset('assets/vandor/gsap/throwable.js') }}"></script>
-<script src="{{ asset('assets/vandor/gsap/matter.js') }}"></script>
 
 <!-- Common JS -->
 <script src="{{ asset('assets/vandor/common-js/common.js') }}"></script>

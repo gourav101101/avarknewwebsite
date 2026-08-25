@@ -29,7 +29,7 @@
     <aside class="admin-sidebar" id="adminSidebar">
         <div class="sidebar-header">
             <a href="{{ route('admin.dashboard') }}" class="sidebar-brand">
-                <img src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="Avark" class="sidebar-logo">
+                <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="Avark" class="sidebar-logo">
                 <span class="sidebar-brand-text">Avark Admin</span>
             </a>
             <button class="sidebar-close d-lg-none" id="sidebarClose">
@@ -60,6 +60,12 @@
                     <a href="{{ route('admin.testimonials.index') }}" class="nav-link-item">
                         <i class="fa-regular fa-quote-left"></i>
                         <span>Testimonials</span>
+                    </a>
+                </li>
+                <li class="nav-item {{ request()->routeIs('admin.ark-hims-shorts.*') ? 'active' : '' }}">
+                    <a href="{{ route('admin.ark-hims-shorts.index') }}" class="nav-link-item">
+                        <i class="fa-brands fa-youtube"></i>
+                        <span>Videos / Shorts</span>
                     </a>
                 </li>
                 <li class="nav-item {{ request()->routeIs('admin.brochures.*') ? 'active' : '' }}">

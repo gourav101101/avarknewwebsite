@@ -74,7 +74,7 @@
                             <input type="file" name="image" id="imageInput" accept="image/*">
                         </div>
                         <div class="image-preview" id="imagePreview" style="display: {{ $blog->image ? 'block' : 'none' }};">
-                            <img id="previewImg" src="{{ $blog->image ? asset($blog->image) : '' }}" alt="Preview">
+                            <img loading="lazy" decoding="async" id="previewImg" src="{{ $blog->image ? asset($blog->image) : '' }}" alt="Preview">
                         </div>
                     </div>
 

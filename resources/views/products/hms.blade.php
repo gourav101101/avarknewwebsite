@@ -59,7 +59,7 @@
                 <!-- Feature Card 1 -->
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/fingerprint_scan_1783402162195.png" class="card-img-top" alt="Registration" style="height: 200px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/fingerprint_scan_1783402162195.png" class="card-img-top" alt="Registration" style="height: 200px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-fingerprint me-2"></i> Easy Fingerprint Registration</h5>
                             <p class="card-text desc small">Advanced biometric patient identification enabling hospitals to accurately identify patients using fingerprint and photo-based systems.</p>
@@ -75,7 +75,7 @@
                 <!-- Feature Card 2 -->
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/machine_kiosk_1783400298207.png" class="card-img-top" alt="Self-Service Kiosk" style="height: 200px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/machine_kiosk_1783400298207.png" class="card-img-top" alt="Self-Service Kiosk" style="height: 200px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-tablet-screen-button me-2"></i> Self-Service Kiosk</h5>
                             <p class="card-text desc small">Hospital kiosks simplify patient registration and administrative processes while significantly reducing waiting times.</p>
@@ -91,7 +91,7 @@
                 <!-- Feature Card 3 -->
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/queue_management_system.png" class="card-img-top" alt="Queue Management" style="height: 200px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/queue_management_system.png" class="card-img-top" alt="Queue Management" style="height: 200px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-users-line me-2"></i> Queue Management System</h5>
                             <p class="card-text desc small">An intelligent queue management system that optimizes patient flow and reduces waiting times across departments.</p>
@@ -107,7 +107,7 @@
                 <!-- Feature Card 4 -->
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/advanced_analytics_reports.png?v=2" class="card-img-top" alt="Advanced Reports" style="height: 200px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/advanced_analytics_reports.png?v=2" class="card-img-top" alt="Advanced Reports" style="height: 200px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-chart-line me-2"></i> Advanced Analytics & Reports</h5>
                             <p class="card-text desc small">Generate comprehensive financial, operational, and statistical reports that provide valuable insights into operations.</p>

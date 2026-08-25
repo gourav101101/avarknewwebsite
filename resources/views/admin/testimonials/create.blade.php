@@ -76,7 +76,7 @@
                             <input type="file" name="avatar" id="avatarInput" accept="image/*">
                         </div>
                         <div class="image-preview" id="avatarPreview" style="display: none; text-align: center;">
-                            <img id="previewImg" src="" alt="Preview" class="table-avatar" style="width: 80px; height: 80px;">
+                            <img loading="lazy" decoding="async" id="previewImg" src="" alt="Preview" class="table-avatar" style="width: 80px; height: 80px;">
                         </div>
                     </div>
 

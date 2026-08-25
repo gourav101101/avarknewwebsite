@@ -7,13 +7,13 @@
 
 @section('content')
 <style>
-    .terms-policy { padding: 100px 0 110px; }
+    .terms-policy { padding: 100px 0 110px; background: var(--site-bg-subtle, #F8FAFF); }
     .terms-policy__content { max-width: 960px; margin: 0 auto; color: #555; font-size: 16px; line-height: 1.8; }
-    .terms-policy__intro { padding: 32px; margin-bottom: 34px; border-left: 4px solid #198754; border-radius: 0 14px 14px 0; background: #f4faf7; }
+    .terms-policy__intro { padding: 32px; margin-bottom: 34px; border-left: 4px solid #7444FD; border-radius: 0 14px 14px 0; background: var(--site-bg-soft, #F0F4FF); }
     .terms-policy__subtitle { margin: 0 0 6px; color: #1d1d1b; font-size: 20px; font-weight: 700; }
     .terms-policy__effective { margin: 0; color: #555; font-weight: 600; }
     .terms-policy h2 { margin: 36px 0 12px; color: #1d1d1b; font-size: 25px; font-weight: 700; scroll-margin-top: 110px; }
-    .terms-policy__provider { padding: 24px 28px; margin-bottom: 34px; border-radius: 14px; background: #f7f8f8; }
+    .terms-policy__provider { padding: 24px 28px; margin-bottom: 34px; border-radius: 14px; background: var(--site-bg-soft, #F0F4FF); }
     .terms-policy__provider h2 { margin-top: 0; }
     .terms-policy__line { margin: 5px 0; color: #555; }
     .terms-policy__spaced { margin-top: 18px; }

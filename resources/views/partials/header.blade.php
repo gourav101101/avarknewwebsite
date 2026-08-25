@@ -1,20 +1,3 @@
-  <div class="loader-wrap">
-    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-      <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-    </svg>
-
-    <div class="loader-wrap-heading">
-      <div class="load-text">
-        <span>A</span>
-        <span>V</span>
-        <span>A</span>
-        <span>R</span>
-        <span>K</span>
-      </div>
-    </div>
-  </div>
-
-
   <!-- Scroll to top removed -->
 
   <!-- side toggle start -->
@@ -24,7 +7,7 @@
         <div class="offset-widget offset-header">
           <div class="offset-logo">
             <a href="{{ route('home') }}">
-              <img class="show-light" src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="site logo" style="filter: brightness(0) invert(1);" />
+              <img loading="eager" decoding="async" class="show-light" src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" alt="site logo" style="filter: brightness(0) invert(1);" />
             </a>
           </div>
           <button id="side-info-close" class="side-info-close">
@@ -63,7 +46,7 @@
   <div class="offcanvas-overlay"></div>
   <!-- side toggle end -->
 
-  <div class="has-smooth" id="has_smooth"></div>
+  <div id="has_smooth"></div>
   <div id="smooth-wrapper">
     <div id="smooth-content">
       <!-- Header area start -->
@@ -78,6 +61,52 @@
         }
         body:has(.breadcrumb-section__area) .header-area-1 .header-main {
           background: transparent;
+        }
+        body:has(.breadcrumb-section__area) .header-area-1__inner {
+          border: 1px solid rgba(255, 255, 255, 0.18);
+          background: linear-gradient(120deg, rgba(24, 16, 47, 0.86), rgba(76, 29, 149, 0.7));
+          box-shadow: 0 18px 48px rgba(24, 16, 47, 0.24);
+          backdrop-filter: blur(22px) saturate(135%);
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .header__logo {
+          border-right-color: rgba(255, 255, 255, 0.16);
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .header-right {
+          border-left-color: rgba(255, 255, 255, 0.16);
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .main-menu > ul > li > a {
+          color: rgba(255, 255, 255, 0.86);
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .main-menu > ul > li.is-active > a {
+          color: #fff;
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .main-menu > ul > li.is-active > a::after {
+          width: 60%;
+          left: 20%;
+          background: #d9d0ff;
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .main-menu ul.dp-menu {
+          overflow: hidden;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-radius: 18px;
+          background: rgba(24, 16, 47, 0.98);
+          box-shadow: 0 22px 55px rgba(15, 8, 35, 0.34);
+          backdrop-filter: blur(20px);
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .main-menu ul.dp-menu li a {
+          color: rgba(255, 255, 255, 0.74);
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .main-menu ul.dp-menu li:hover > a {
+          color: #fff !important;
+          text-shadow: none;
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .header-btn .rr-btn-4 {
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          background: linear-gradient(135deg, #7444FD 0%, #5B2EE5 100%);
+          box-shadow: 0 10px 26px rgba(12, 6, 30, 0.25);
+        }
+        body:has(.breadcrumb-section__area) .header-area-1 .header-right .side-toggle .bar-icon span {
+          background: #fff;
         }
         /* Make the logo appear white globally */
         .header__logo img {
@@ -98,7 +127,7 @@
         /* Top-level nav hover — vivid white glow effect */
         .header-area-1 .main-menu > ul > li:hover > a {
           color: #fff !important;
-          text-shadow: 0 0 8px rgba(160, 234, 113, 0.9), 0 0 20px rgba(160, 234, 113, 0.5);
+          text-shadow: 0 0 8px rgba(116, 68, 253, 0.9), 0 0 20px rgba(116, 68, 253, 0.5);
         }
 
         /* Top-level nav link — subtle underline animation on hover */
@@ -112,7 +141,7 @@
           left: 50%;
           width: 0;
           height: 2px;
-          background: #A0EA71;
+          background: #7444FD;
           transition: width 0.3s ease, left 0.3s ease;
           border-radius: 2px;
         }
@@ -123,8 +152,8 @@
 
         /* Dropdown menu items — improved hover */
         .header-area-1 .main-menu ul.dp-menu li:hover > a {
-          color: #A0EA71 !important;
-          text-shadow: 0 0 6px rgba(160, 234, 113, 0.4);
+          color: #7444FD !important;
+          text-shadow: 0 0 6px rgba(116, 68, 253, 0.4);
           padding-left: 5px;
         }
         .header-area-1 .main-menu ul.dp-menu li a {
@@ -134,7 +163,7 @@
         /* Mobile hamburger bar glow on hover */
         .header-area-1 .header-right .side-toggle .bar-icon:hover span {
           background: #fff;
-          box-shadow: 0 0 6px rgba(160, 234, 113, 0.8);
+          box-shadow: 0 0 6px rgba(116, 68, 253, 0.8);
         }
       </style>
       <header class="header-area-1">
@@ -146,7 +175,7 @@
                         {{-- Logo --}}
                         <div class="header__logo">
                             <a href="{{ route('home') }}">
-                                <img src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" class="normal-logo" alt="Site Logo">
+                                <img loading="eager" decoding="async" src="{{ asset('assets/imgs/logo/kp-avark-logo.png') }}" class="normal-logo" alt="Site Logo">
                             </a>
                         </div>
 
@@ -155,7 +184,7 @@
                             <nav class="main-menu">
                                 <ul>
 
-                                    <li>
+                                    <li class="{{ request()->routeIs('home') ? 'is-active' : '' }}">
                                         <a href="{{ route('home') }}">Home</a>
 
                                     </li>
@@ -170,7 +199,7 @@
                                         </ul>
                                     </li> -->
 
-                                      <li class="">
+                                      <li class="{{ request()->routeIs('services', 'erp-system', 'crm-solutions', 'custom-software-development', 'web-application-development', 'mobile-app-development', 'cloud-and-data-migration', 'enterprise-integration-services', 'digital-healthcare-solution', 'tele-consultation', 'cms') ? 'is-active' : '' }}">
                                         <!-- <li class="menu-item-has-children"> -->
                                         <a href="{{ route('services') }}">Services</a>
                                         <ul class="dp-menu column-2">
@@ -200,7 +229,7 @@
 
 
 
-                                    <li class="">
+                                    <li class="{{ request()->routeIs('products', 'hms', 'kiosk-management-system', 'feedback-management', 'business-marketing-tool', 'inventory-stock-management', 'pathology-diagnostic-management', 'white-label-practice-management', 'dialysis-management', 'enterprise-support-management', 'digital-signage-solutions', 'opd-management-system', 'industrial-asset-management') ? 'is-active' : '' }}">
                                         <!-- <li class="menu-item-has-children"> -->
                                         <a href="{{ route('products') }}">Products</a>
                                         <ul class="dp-menu column-2">
@@ -244,7 +273,7 @@
                                     </li>
 
 
-                                    <li>
+                                    <li class="{{ request()->routeIs('partners') ? 'is-active' : '' }}">
                                         <a href="{{ route('partners') }}">Partners</a>
                                     </li>
 
@@ -257,7 +286,7 @@
                                         </ul>
                                     </li> -->
 
-                                    <li>
+                                    <li class="{{ request()->routeIs('contact-us') ? 'is-active' : '' }}">
                                         <a href="{{ route ('contact-us') }}">Contact</a>
                                     </li>
 

@@ -8,6 +8,7 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\AdminBlogController;
 use App\Http\Controllers\Admin\AdminBrochureController;
 use App\Http\Controllers\Admin\AdminTestimonialController;
+use App\Http\Controllers\Admin\AdminArkHimsShortController;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/media/{folder}/{filename}', [PublicMediaController::class, 'legacy'])
@@ -76,6 +77,13 @@ Route::prefix('admin')->group(function () {
         // Testimonials CRUD
         Route::resource('testimonials', AdminTestimonialController::class)->names('admin.testimonials');
         Route::patch('testimonials/{testimonial}/toggle-status', [AdminTestimonialController::class, 'toggleStatus'])->name('admin.testimonials.toggle-status');
+
+        // ARK HIMS YouTube Shorts
+        Route::resource('ark-hims-shorts', AdminArkHimsShortController::class)
+            ->except('show')
+            ->names('admin.ark-hims-shorts');
+        Route::patch('ark-hims-shorts/{arkHimsShort}/toggle-status', [AdminArkHimsShortController::class, 'toggleStatus'])
+            ->name('admin.ark-hims-shorts.toggle-status');
     });
 });
 

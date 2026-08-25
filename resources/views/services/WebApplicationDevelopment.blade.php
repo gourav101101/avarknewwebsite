@@ -27,7 +27,7 @@
 <div class="container rr-container-1350">
     <div class="service-details__top">
     <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="{{ asset('assets/imgs/inner/service-detils/Solution-PNG.png') }}" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
+        <img loading="eager" decoding="async" fetchpriority="high" src="{{ asset('assets/imgs/inner/service-detils/Solution-PNG.png') }}" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
     </div>
     </div>
     <div class="row">
@@ -47,7 +47,7 @@
         </div>
         </div>
         <div class="media" data-aos="fade-up" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/KPWeb-app-development-022.jpg" alt="img">
+            <img loading="lazy" decoding="async" src="assets/imgs/inner/service-detils/KPWeb-app-development-022.jpg" alt="img">
         </div>
     </div>
     <div class="col-lg-8 col-12">
@@ -267,8 +267,8 @@
 <div class="container rr-container-1350">
     <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
     <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Let's Build Your Next Digital Platform<img class="right-shape"
+        <h2 class="sub-title white"><img loading="lazy" decoding="async" class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
+            alt="image">Let's Build Your Next Digital Platform<img loading="lazy" decoding="async" class="right-shape"
             src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
         <h2 class="title rr-title-anim-1 white">Custom Web Applications Designed for Innovation & Growth</h2>
         <p class="cta-section__dec">Build a secure, scalable, and high-performing web solution tailored to your business goals.</p>

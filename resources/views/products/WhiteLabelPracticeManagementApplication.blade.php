@@ -82,7 +82,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/wl_users_appointments.png?v=2" class="card-img-top" alt="User Management" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/wl_users_appointments.png?v=2" class="card-img-top" alt="User Management" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-user-doctor me-2"></i> Users & Appointments</h5>
                             <p class="card-text desc small">Secure registration for patients and doctors. Easily schedule appointments, view availability, and manage time slots dynamically.</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/wl_virtual_consultations.png?v=2" class="card-img-top" alt="Consultations" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/wl_virtual_consultations.png?v=2" class="card-img-top" alt="Consultations" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-video me-2"></i> Virtual Consultations</h5>
                             <p class="card-text desc small">High-quality, secure HD video and audio consultations with integrated messaging, chat, and offline follow-ups.</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/wl_ehr_prescriptions.png?v=2" class="card-img-top" alt="EHR Integration" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/wl_ehr_prescriptions.png?v=2" class="card-img-top" alt="EHR Integration" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-file-prescription me-2"></i> EHR & Prescriptions</h5>
                             <p class="card-text desc small">Seamlessly integrate with EHRs for patient history. Doctors can instantly generate and manage digital e-prescriptions.</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/wl_payments_analytics.png?v=2" class="card-img-top" alt="Payments & Analytics" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/wl_payments_analytics.png?v=2" class="card-img-top" alt="Payments & Analytics" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-credit-card me-2"></i> Payments & Analytics</h5>
                             <p class="card-text desc small">Integrated payment gateways for seamless fee collection. Comprehensive dashboards for revenue and performance analytics.</p>

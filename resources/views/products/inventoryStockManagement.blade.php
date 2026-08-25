@@ -82,7 +82,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/inventory_box_1783400245007.png" class="card-img-top" alt="Real-Time Tracking" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/inventory_box_1783400245007.png" class="card-img-top" alt="Real-Time Tracking" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-boxes-packing me-2"></i> Real-Time Tracking</h5>
                             <p class="card-text desc small">Monitor Stock-In, Stock-Out, and Stock-On-Hand in real time. Maintain a complete audit trail of all inventory transactions.</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/analytics_dashboard_1783400138562.png" class="card-img-top" alt="Automated Reordering" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/analytics_dashboard_1783400138562.png" class="card-img-top" alt="Automated Reordering" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-truck-ramp-box me-2"></i> Automated Reordering</h5>
                             <p class="card-text desc small">Automatically generate purchase requests based on predefined reorder levels and thresholds to avoid stockouts.</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/barcode_scanner_1783402194262.png" class="card-img-top" alt="Barcode & RFID" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/barcode_scanner_1783402194262.png" class="card-img-top" alt="Barcode & RFID" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-barcode me-2"></i> Barcode & RFID Integration</h5>
                             <p class="card-text desc small">Leverage barcodes and RFID for faster counting, reduced errors, and automated tracking of products and batches.</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/cloud_server_1783400149336.png" class="card-img-top" alt="Reporting" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/cloud_server_1783400149336.png" class="card-img-top" alt="Reporting" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-chart-line me-2"></i> Reporting & Integration</h5>
                             <p class="card-text desc small">Generate comprehensive reports and seamlessly integrate with Sales, Purchasing, Billing, and ERP platforms.</p>

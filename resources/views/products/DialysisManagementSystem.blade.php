@@ -83,7 +83,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/dialysis_patient_management.png?v=2" class="card-img-top" alt="Patient Management" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/dialysis_patient_management.png?v=2" class="card-img-top" alt="Patient Management" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-bed-pulse me-2"></i> Patient & Treatment Management</h5>
                             <p class="card-text desc small">Centralized patient registry, prescription tracking, and protocol adherence monitoring. Easily track medical history, demographics, and clinical documentation in one place.</p>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/dialysis_medical_charting.png?v=2" class="card-img-top" alt="Medical Charting" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/dialysis_medical_charting.png?v=2" class="card-img-top" alt="Medical Charting" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-chart-line me-2"></i> Medical Charting & Fluid Balance</h5>
                             <p class="card-text desc small">Real-time charting of vital signs, weight, BP, and temperature. Track fluid intake and output for effective fluid management and risk reduction.</p>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/dialysis_medication.png?v=2" class="card-img-top" alt="Medication Management" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/dialysis_medication.png?v=2" class="card-img-top" alt="Medication Management" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-pills me-2"></i> Medication & Documentation</h5>
                             <p class="card-text desc small">Safely manage IV medications, schedules, and dosages. Digitally document real-time clinical events, nursing observations, and adverse reactions.</p>
@@ -110,7 +110,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/dialysis_labs_calculations.png?v=2" class="card-img-top" alt="Lab & Decision Support" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/dialysis_labs_calculations.png?v=2" class="card-img-top" alt="Lab & Decision Support" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-flask me-2"></i> Labs, Calculations & CDS</h5>
                             <p class="card-text desc small">Automate Kt/V and URR calculations, seamlessly integrate lab results, and utilize clinical decision support alerts for critical patient conditions.</p>

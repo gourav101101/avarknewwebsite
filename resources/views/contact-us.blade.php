@@ -12,18 +12,18 @@
         overflow: hidden;
         position: relative;
         border-radius: 32px;
-        background: linear-gradient(90deg, #0E0E0C 0%, #198754 100%);
+        background: #7444FD ;
     }
 
     .counter__item.item-2 {
-        background: #9dd3ce;
+        background: var(--site-bg-soft, #F0F4FF);
     }
 
     .service-details .analytics {
         padding: 40px 32px;
         position: relative;
         border-radius: 16px;
-        background: linear-gradient(90deg, #198754 0%, var(--Text-Primary, #c9c939) 100%), var(--BG-Sedentary, #F6F6F6);
+        background: linear-gradient(135deg, #7444FD 0%, #4C1D95 100%);
     }
 
     /* ── Form field improvements ── */
@@ -34,8 +34,8 @@
     }
     .contact-us-wrapper .comment-form-wrap .form-clt input:focus,
     .contact-us-wrapper .comment-form-wrap .form-clt textarea:focus {
-        border-color: #198754;
-        box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.12);
+        border-color: #7444FD;
+        box-shadow: 0 0 0 3px rgba(116, 68, 253, 0.12);
         outline: none;
     }
     .contact-us-wrapper .comment-form-wrap .form-clt input::placeholder,
@@ -57,7 +57,7 @@
         width: 100%;
         padding: 20px 20px;
         border-radius: 12px;
-        background: #F6F6F6;
+        background: var(--site-bg-soft, #F0F4FF);
         border: 1.5px solid #e0e0e0;
         font-size: 16px;
         font-weight: 400;
@@ -72,8 +72,8 @@
         border-color: #c0c0c0;
     }
     .custom-select-trigger.open {
-        border-color: #198754;
-        box-shadow: 0 0 0 3px rgba(25, 135, 84, 0.12);
+        border-color: #7444FD;
+        box-shadow: 0 0 0 3px rgba(116, 68, 253, 0.12);
     }
     .custom-select-trigger .arrow {
         width: 20px;
@@ -110,7 +110,7 @@
         transform: translateY(-8px);
         transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
         scrollbar-width: thin;
-        scrollbar-color: #c0c0c0 transparent;
+        scrollbar-color: #7444FD #EEE9FF;
     }
     .custom-select-dropdown.show {
         opacity: 1;
@@ -118,14 +118,14 @@
         transform: translateY(0);
     }
     .custom-select-dropdown::-webkit-scrollbar {
-        width: 6px;
+        width: 8px;
     }
     .custom-select-dropdown::-webkit-scrollbar-track {
-        background: transparent;
+        background: #F5F3F7;
     }
     .custom-select-dropdown::-webkit-scrollbar-thumb {
-        background: #c0c0c0;
-        border-radius: 3px;
+        background: linear-gradient(180deg, #E13BFF 0%, #8E18B8 100%);
+        border-radius: 999px;
     }
 
     .custom-select-group-label {
@@ -134,7 +134,7 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 1.2px;
-        color: #198754;
+        color: #7444FD;
         pointer-events: none;
     }
     .custom-select-group-label:not(:first-child) {
@@ -150,12 +150,12 @@
         transition: background 0.15s ease, color 0.15s ease;
     }
     .custom-select-option:hover {
-        background: #f0faf5;
-        color: #198754;
+        background: var(--site-bg-subtle, #F8FAFF);
+        color: #7444FD;
     }
     .custom-select-option.selected {
-        background: #e8f5ef;
-        color: #198754;
+        background: var(--site-bg-soft, #F0F4FF);
+        color: #7444FD;
         font-weight: 500;
     }
     .custom-select-option:last-child {
@@ -503,8 +503,8 @@
     <div class="container rr-container-1350">
         <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
             <div class="section-title-3__wrapper tx-center">
-                <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-                        alt="image">Connect With Us <img class="right-shape"
+                <h2 class="sub-title white"><img loading="lazy" decoding="async" class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
+                        alt="image">Connect With Us <img loading="lazy" decoding="async" class="right-shape"
                         src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
                 <h2 class="title rr-title-anim-1 white">Let’s Talk — Experience the Future of Healthcare Management</h2>
                 <p class="cta-section__dec">Have questions about ARK HIMS or our healthcare solutions? Our team is here to provide the right guidance and solutions tailored to your hospital.</p>

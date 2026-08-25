@@ -27,7 +27,7 @@
 <div class="container rr-container-1350">
     <div class="service-details__top">
     <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/custom-software-development.png" alt="img">
+        <img loading="eager" decoding="async" fetchpriority="high" src="assets/imgs/inner/service-detils/custom-software-development.png" alt="img">
     </div>
     </div>
     <div class="row">
@@ -47,7 +47,7 @@
         </div>
         </div>
         <div class="media" data-aos="fade-up" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/custom-software-developmentkp01.png" alt="img">
+            <img loading="lazy" decoding="async" src="assets/imgs/inner/service-detils/custom-software-developmentkp01.png" alt="img">
         </div>
     </div>
     <div class="col-lg-8 col-12">
@@ -97,8 +97,8 @@
 <div class="container rr-container-1350">
     <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
     <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Connect With Us <img class="right-shape"
+        <h2 class="sub-title white"><img loading="lazy" decoding="async" class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
+            alt="image">Connect With Us <img loading="lazy" decoding="async" class="right-shape"
             src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
         <h2 class="title rr-title-anim-1 white">Let's Build Your Next Digital Solution</h2>
         <p class="cta-section__dec">Custom Software Engineered for Performance & Growth</p>

@@ -6,9 +6,9 @@
 
 @section('content')
 <style>
-    .blog-listing { background: #f6f8fb; }
+    .blog-listing { background: linear-gradient(180deg, #F8FAFF 0%, #F0F4FF 100%); }
     .blog-listing__intro { max-width: 650px; margin: 0 auto 46px; text-align: center; }
-    .blog-listing__eyebrow { color: #16803d; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .blog-listing__eyebrow { color: #5B2EE5; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
     .blog-listing__intro h1 { color: #152b3c; font-size: clamp(32px, 4vw, 48px); margin: 10px 0 12px; }
     .blog-listing__intro p { color: #64748b; font-size: 17px; margin: 0; }
     .blog-card { height: 100%; overflow: hidden; border: 1px solid #e5eaf0; border-radius: 18px; background: #fff; box-shadow: 0 8px 25px rgba(21, 43, 60, .06); transition: transform .25s ease, box-shadow .25s ease; }
@@ -16,19 +16,19 @@
     .blog-card__image { position: relative; display: block; height: 225px; overflow: hidden; background: #e8eef1; }
     .blog-card__image img { width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
     .blog-card:hover .blog-card__image img { transform: scale(1.05); }
-    .blog-card__tag { position: absolute; top: 16px; left: 16px; display: inline-block; padding: 6px 12px; border-radius: 20px; background: #16803d; color: #fff; font-size: 12px; font-weight: 700; }
+    .blog-card__tag { position: absolute; top: 16px; left: 16px; display: inline-block; padding: 6px 12px; border-radius: 20px; background: #7444FD; color: #fff; font-size: 12px; font-weight: 700; }
     .blog-card__body { display: flex; height: calc(100% - 225px); flex-direction: column; padding: 25px; }
     .blog-card__meta { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 14px; color: #718096; font-size: 13px; }
-    .blog-card__meta i { color: #16803d; margin-right: 5px; }
+    .blog-card__meta i { color: #7444FD; margin-right: 5px; }
     .blog-card__title { margin: 0 0 12px; font-size: 23px; line-height: 1.35; }
     .blog-card__title a { color: #152b3c; transition: color .2s ease; }
-    .blog-card__title a:hover { color: #16803d; }
+    .blog-card__title a:hover { color: #5B2EE5; }
     .blog-card__excerpt { color: #64748b; line-height: 1.7; }
-    .blog-card__link { margin-top: auto; padding-top: 18px; color: #16803d; font-weight: 700; }
+    .blog-card__link { margin-top: auto; padding-top: 18px; color: #7444FD; font-weight: 700; }
     .blog-card__link i { margin-left: 7px; transition: transform .2s ease; }
     .blog-card__link:hover i { transform: translateX(4px); }
     .blog-empty { padding: 60px 25px; border: 1px dashed #cbd5e1; border-radius: 18px; background: #fff; color: #64748b; text-align: center; }
-    .blog-empty i { display: block; margin-bottom: 16px; color: #16803d; font-size: 42px; }
+    .blog-empty i { display: block; margin-bottom: 16px; color: #7444FD; font-size: 42px; }
     @media (max-width: 575px) { .blog-card__image { height: 200px; } .blog-card__body { padding: 20px; } }
 </style>
 
@@ -60,7 +60,7 @@
                 <div class="col-lg-4 col-md-6">
                     <article class="blog-card">
                         <a class="blog-card__image" href="{{ route('blog-details', $blog->slug) }}" aria-label="Read {{ $blog->title }}">
-                            <img src="{{ $blog->image ? asset($blog->image) : asset('assets/imgs/inner/features/analytics_dashboard_1783400138562.png') }}" alt="{{ $blog->title }}">
+                            <img loading="lazy" decoding="async" src="{{ $blog->image ? asset($blog->image) : asset('assets/imgs/inner/features/analytics_dashboard_1783400138562.png') }}" alt="{{ $blog->title }}">
                             @if($blog->tag)
                                 <span class="blog-card__tag">{{ $blog->tag }}</span>
                             @endif

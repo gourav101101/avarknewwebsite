@@ -46,7 +46,7 @@
                         <td>
                             <div style="display: flex; align-items: center; gap: 12px;">
                                 @if($testimonial->avatar)
-                                    <img src="{{ asset($testimonial->avatar) }}" alt="" class="table-avatar">
+                                    <img loading="lazy" decoding="async" src="{{ asset($testimonial->avatar) }}" alt="" class="table-avatar">
                                 @else
                                     <div class="table-avatar" style="background: var(--admin-surface-hover); display: flex; align-items: center; justify-content: center; font-weight: 600; color: var(--admin-text-dim);">
                                         {{ substr($testimonial->client_name, 0, 1) }}

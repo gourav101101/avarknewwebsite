@@ -1,0 +1,295 @@
+/* Avark public-site visual system
+   Primary: #7444FD | Hover: #5B2EE5 | Dark: #4C1D95
+   Soft backgrounds: #F0F4FF and #F8FAFF */
+
+.site-theme {
+  --primary: #7444FD;
+  --primary-hover: #5B2EE5;
+  --primary-dark: #4C1D95;
+  --primary-soft: #EEE9FF;
+  --green: #7444FD;
+  --lime-green: #7444FD;
+  --purple: #7444FD;
+  --gray-three: #F0F4FF;
+  --bg: #F8FAFF;
+  --site-bg-soft: #F0F4FF;
+  --site-bg-subtle: #F8FAFF;
+  color: #334155;
+  background: #fff;
+}
+
+.site-theme ::selection {
+  color: #fff;
+  background: #7444FD;
+}
+
+/* Purple theme scrollbars for the page and scrollable components. */
+html,
+.site-theme,
+.site-theme * {
+  scrollbar-color: #7444FD #EEE9FF;
+  scrollbar-width: thin;
+}
+
+html::-webkit-scrollbar,
+.site-theme::-webkit-scrollbar,
+.site-theme *::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html::-webkit-scrollbar-track,
+.site-theme::-webkit-scrollbar-track,
+.site-theme *::-webkit-scrollbar-track {
+  background: #F5F3F7;
+}
+
+html::-webkit-scrollbar-thumb,
+.site-theme::-webkit-scrollbar-thumb,
+.site-theme *::-webkit-scrollbar-thumb {
+  min-height: 40px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #E13BFF 0%, #8E18B8 100%);
+}
+
+html::-webkit-scrollbar-thumb:hover,
+.site-theme::-webkit-scrollbar-thumb:hover,
+.site-theme *::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #D822F8 0%, #74119A 100%);
+}
+
+/* Keep the dotted section-title ornaments in sync with the purple theme. */
+.site-theme .section-title-3__wrapper .sub-title img:not([src*="-white"]) {
+  filter: brightness(0) saturate(100%) invert(33%) sepia(97%) saturate(4927%) hue-rotate(251deg) brightness(101%) contrast(98%);
+}
+
+.site-theme .section-title-3__wrapper .sub-title img[src*="-white"] {
+  filter: none;
+}
+
+.site-theme :where(a, button, input, textarea, select, [tabindex]):focus-visible {
+  outline: 3px solid rgba(116, 68, 253, 0.3);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-theme *,
+  .site-theme *::before,
+  .site-theme *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Shared inner-page hero */
+.site-theme .breadcrumb-section__wrapper {
+  isolation: isolate;
+  overflow: hidden;
+  background-color: #24134f;
+  box-shadow: 0 24px 60px rgba(76, 29, 149, 0.2);
+}
+
+.site-theme .breadcrumb-section__wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(120deg, rgba(24, 16, 47, 0.9) 0%, rgba(76, 29, 149, 0.76) 56%, rgba(116, 68, 253, 0.6) 100%);
+  pointer-events: none;
+}
+
+.site-theme .breadcrumb-section__content {
+  position: relative;
+  z-index: 1;
+}
+
+.site-theme .breadcrumb-section__page li a {
+  transition: opacity 0.25s ease;
+}
+
+.site-theme .breadcrumb-section__border {
+  border-color: rgba(116, 68, 253, 0.2);
+}
+
+/* Service and product detail pages */
+.site-theme .service-details {
+  background: linear-gradient(180deg, #fff 0%, #F8FAFF 48%, #fff 100%);
+}
+
+.site-theme .service-details__top > .media,
+.site-theme .service-details > .container > .media {
+  overflow: hidden;
+  border-radius: 24px;
+  box-shadow: 0 20px 50px rgba(76, 29, 149, 0.1);
+}
+
+.site-theme .service-details-sidebar {
+  border: 1px solid rgba(116, 68, 253, 0.12);
+  border-radius: 20px;
+  background: linear-gradient(145deg, #F0F4FF 0%, #F8FAFF 100%);
+  box-shadow: 0 18px 45px rgba(76, 29, 149, 0.08);
+}
+
+.site-theme .service-details-sidebar-categories ul li {
+  border: 1px solid rgba(116, 68, 253, 0.08);
+  box-shadow: 0 6px 18px rgba(76, 29, 149, 0.04);
+}
+
+.site-theme .service-details-sidebar-categories ul li::before {
+  background: linear-gradient(135deg, #7444FD 0%, #5B2EE5 100%);
+}
+
+.site-theme .service-details__content > .title,
+.site-theme .service-compact-title {
+  color: #0F172A;
+}
+
+.site-theme .service-compact-title::before {
+  background: #7444FD;
+}
+
+.site-theme .service-why-card,
+.site-theme .feature-card,
+.site-theme .service-accordion .accordion-item {
+  border: 1px solid rgba(116, 68, 253, 0.1) !important;
+  background: rgba(255, 255, 255, 0.94) !important;
+  box-shadow: 0 12px 34px rgba(76, 29, 149, 0.08) !important;
+}
+
+.site-theme .service-why-card:hover,
+.site-theme .feature-card:hover,
+.site-theme .service-accordion .accordion-item:hover {
+  border-color: rgba(116, 68, 253, 0.28) !important;
+  box-shadow: 0 20px 45px rgba(76, 29, 149, 0.13) !important;
+}
+
+.site-theme .feature-card .bg-light,
+.site-theme .feature-card.bg-primary,
+.site-theme .feature-card.bg-success,
+.site-theme .feature-card.bg-info,
+.site-theme .feature-card.bg-warning {
+  background: linear-gradient(145deg, #F8FAFF 0%, #F0F4FF 100%) !important;
+}
+
+.site-theme .service-details :is(.text-primary, .text-success, .text-info, .text-warning),
+.site-theme .service-details [style*="#0b5edd"],
+.site-theme .service-feature-badge i {
+  color: #7444FD !important;
+}
+
+.site-theme .service-feature-badge {
+  border-color: rgba(116, 68, 253, 0.16);
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(76, 29, 149, 0.06);
+}
+
+.site-theme .service-feature-badge:hover {
+  border-color: #7444FD;
+  background: #EEE9FF;
+}
+
+.site-theme .service-accordion .accordion-button:not(.collapsed) {
+  color: #4C1D95;
+  background: #EEE9FF;
+}
+
+.site-theme .service-details .analytics {
+  background: linear-gradient(135deg, #7444FD 0%, #4C1D95 100%);
+  box-shadow: 0 20px 48px rgba(76, 29, 149, 0.2);
+}
+
+/* About, services, products, partners and contact */
+.site-theme .about-section-2,
+.site-theme .partner-hero-logos,
+.site-theme .benefits-section,
+.site-theme .contact-section {
+  background: linear-gradient(180deg, #fff 0%, #F8FAFF 100%);
+}
+
+.site-theme .about-section-2__box,
+.site-theme .ai-features-2__item,
+.site-theme .partner-logo-item {
+  border: 1px solid rgba(116, 68, 253, 0.1);
+  background: #F8FAFF;
+  box-shadow: 0 14px 38px rgba(76, 29, 149, 0.07);
+}
+
+.site-theme .partners-section .text-success,
+.site-theme .about-section .text-success,
+.site-theme .partner-hero-logos .text-success,
+.site-theme .services-section .text-success,
+.site-theme .benefits-section .text-success {
+  color: #7444FD !important;
+}
+
+.site-theme .contact-us-wrapper .contact-us__info .contact-us-box .icon {
+  color: #7444FD;
+  background: #EEE9FF;
+}
+
+.site-theme .contact-us-wrapper .comment-form-wrap {
+  padding: clamp(24px, 4vw, 42px);
+  border: 1px solid rgba(116, 68, 253, 0.12);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 20px 55px rgba(76, 29, 149, 0.09);
+}
+
+.site-theme .contact-us-wrapper .comment-form-wrap .form-clt input,
+.site-theme .contact-us-wrapper .comment-form-wrap .form-clt textarea,
+.site-theme .custom-select-trigger {
+  background: #F8FAFF;
+}
+
+/* Blog and long-form pages */
+.site-theme .blog-card {
+  border-color: rgba(116, 68, 253, 0.11);
+  box-shadow: 0 12px 34px rgba(76, 29, 149, 0.08);
+}
+
+.site-theme .blog-card:hover {
+  border-color: rgba(116, 68, 253, 0.24);
+  box-shadow: 0 22px 48px rgba(76, 29, 149, 0.14);
+}
+
+.site-theme :is(.privacy-policy, .terms-policy, .refund-policy, .cancellation-policy) {
+  background: linear-gradient(180deg, #F8FAFF 0%, #F0F4FF 100%);
+}
+
+.site-theme :is(.privacy-policy, .terms-policy, .refund-policy, .cancellation-policy) article {
+  padding: clamp(24px, 4vw, 48px);
+  border: 1px solid rgba(116, 68, 253, 0.1);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 20px 55px rgba(76, 29, 149, 0.08);
+}
+
+/* Reusable calls to action */
+.site-theme .cta-section__wrapper,
+.site-theme .crm-benefits__wrapper {
+  box-shadow: 0 24px 64px rgba(76, 29, 149, 0.2);
+}
+
+.site-theme .rr-bg-gray {
+  background: #F0F4FF !important;
+}
+
+@media (max-width: 991px) {
+  .site-theme .contact-us-wrapper .comment-form-wrap {
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  .site-theme .breadcrumb-section__wrapper {
+    border-radius: 22px;
+  }
+
+  .site-theme .service-details-sidebar,
+  .site-theme .contact-us-wrapper .comment-form-wrap,
+  .site-theme :is(.privacy-policy, .terms-policy, .refund-policy, .cancellation-policy) article {
+    border-radius: 18px;
+  }
+}

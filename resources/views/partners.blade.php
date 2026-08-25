@@ -9,8 +9,8 @@
 <style>
     /* Premium Partners Page Styles */
     .partner-hero-logos {
-        background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
-        border-bottom: 1px solid rgba(22, 163, 74, 0.1);
+        background: linear-gradient(180deg, #F0F4FF 0%, #ffffff 100%);
+        border-bottom: 1px solid rgba(116, 68, 253, 0.1);
     }
     .partner-logo-item {
         filter: grayscale(100%) opacity(0.6);
@@ -19,17 +19,17 @@
         background: #fff;
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-        border: 1px solid rgba(22, 163, 74, 0.05);
+        border: 1px solid rgba(116, 68, 253, 0.05);
     }
     .partner-logo-item:hover {
         filter: grayscale(0%) opacity(1);
         transform: translateY(-5px);
-        box-shadow: 0 12px 24px rgba(22, 163, 74, 0.15);
-        border-color: rgba(22, 163, 74, 0.2);
+        box-shadow: 0 12px 24px rgba(116, 68, 253, 0.15);
+        border-color: rgba(116, 68, 253, 0.2);
     }
     
     .premium-service-card {
-        border-left: 4px solid #16a34a !important;
+        border-left: 4px solid #5B2EE5 !important;
         background: #fff;
         transition: all 0.3s ease;
         border-radius: 12px;
@@ -41,14 +41,14 @@
         content: '';
         position: absolute;
         top: 0; left: 0; width: 100%; height: 100%;
-        background: linear-gradient(135deg, rgba(22,163,74,0.05), transparent);
+        background: linear-gradient(135deg, rgba(116,68,253,0.05), transparent);
         opacity: 0;
         transition: opacity 0.3s ease;
     }
     .premium-service-card:hover {
         transform: translateX(8px);
-        box-shadow: 0 10px 25px rgba(22,163,74,0.12);
-        border-left-color: #15803d !important;
+        box-shadow: 0 10px 25px rgba(116,68,253,0.12);
+        border-left-color: #4C1D95 !important;
     }
     .premium-service-card:hover::before {
         opacity: 1;
@@ -60,13 +60,13 @@
         padding: 30px;
         height: 100%;
         box-shadow: 0 4px 20px rgba(0,0,0,0.04);
-        border: 1px solid rgba(22, 163, 74, 0.08);
+        border: 1px solid rgba(116, 68, 253, 0.08);
         transition: all 0.4s ease;
     }
     .network-card:hover {
         transform: translateY(-6px);
-        box-shadow: 0 16px 40px rgba(22, 163, 74, 0.12);
-        border-color: rgba(22, 163, 74, 0.3);
+        box-shadow: 0 16px 40px rgba(116, 68, 253, 0.12);
+        border-color: rgba(116, 68, 253, 0.3);
     }
     .network-list {
         list-style: none;
@@ -85,10 +85,10 @@
         border-bottom: none;
     }
     .network-list li:hover {
-        color: #15803d;
+        color: #4C1D95;
     }
     .network-list li i {
-        color: #16a34a;
+        color: #5B2EE5;
         margin-right: 12px;
         font-size: 1.1rem;
     }
@@ -98,7 +98,7 @@
         border-radius: 16px;
         padding: 35px;
         height: 100%;
-        border: 1px solid rgba(22, 163, 74, 0.1);
+        border: 1px solid rgba(116, 68, 253, 0.1);
         transition: all 0.4s ease;
         position: relative;
         z-index: 1;
@@ -108,13 +108,13 @@
         content: '';
         position: absolute;
         bottom: 0; left: 0; width: 100%; height: 4px;
-        background: linear-gradient(90deg, #22c55e, #15803d);
+        background: #7444FD ;
         transform: scaleX(0);
         transform-origin: left;
         transition: transform 0.4s ease;
     }
     .benefit-card:hover {
-        box-shadow: 0 20px 40px rgba(22, 163, 74, 0.08);
+        box-shadow: 0 20px 40px rgba(116, 68, 253, 0.08);
         transform: translateY(-5px);
     }
     .benefit-card:hover::after {
@@ -123,18 +123,18 @@
     .benefit-icon {
         width: 60px;
         height: 60px;
-        background: linear-gradient(135deg, rgba(22,163,74,0.1), rgba(21,128,61,0.15));
+        background: linear-gradient(135deg, rgba(116,68,253,0.1), rgba(76,29,149,0.15));
         border-radius: 12px;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 20px;
-        color: #15803d;
+        color: #4C1D95;
         font-size: 24px;
         transition: all 0.3s ease;
     }
     .benefit-card:hover .benefit-icon {
-        background: linear-gradient(135deg, #16a34a, #15803d);
+        background: #7444FD ;
         color: #fff;
         transform: scale(1.1) rotate(5deg);
     }
@@ -142,12 +142,12 @@
     .section-badge {
         display: inline-block;
         padding: 8px 20px;
-        background: linear-gradient(135deg, rgba(21, 128, 61, 0.08), rgba(34, 197, 94, 0.12));
-        border: 1px solid rgba(21, 128, 61, 0.18);
+        background: linear-gradient(135deg, rgba(76, 29, 149, 0.08), rgba(116, 68, 253, 0.12));
+        border: 1px solid rgba(76, 29, 149, 0.18);
         border-radius: 100px;
         font-size: 14px;
         font-weight: 700;
-        color: #15803d;
+        color: #4C1D95;
         letter-spacing: 0.8px;
         text-transform: uppercase;
         margin-bottom: 15px;
@@ -179,27 +179,27 @@
         <div class="row justify-content-center align-items-center g-4">
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="partner-logo-item d-flex justify-content-center align-items-center h-100">
-                    <img src="{{ asset('assets/imgs/home-1/brand/amazonwebservices.png') }}" class="img-fluid" alt="Amazon Web Services" style="max-height: 50px;">
+                    <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/home-1/brand/amazonwebservices.png') }}" class="img-fluid" alt="Amazon Web Services" style="max-height: 50px;">
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="partner-logo-item d-flex justify-content-center align-items-center h-100">
-                    <img src="{{ asset('assets/imgs/home-1/brand/oracle.png') }}" class="img-fluid" alt="Oracle" style="max-height: 50px;">
+                    <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/home-1/brand/oracle.png') }}" class="img-fluid" alt="Oracle" style="max-height: 50px;">
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="partner-logo-item d-flex justify-content-center align-items-center h-100">
-                    <img src="{{ asset('assets/imgs/home-1/brand/makd.png') }}" class="img-fluid" alt="MAKD" style="max-height: 50px;">
+                    <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/home-1/brand/makd.png') }}" class="img-fluid" alt="MAKD" style="max-height: 50px;">
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="partner-logo-item d-flex justify-content-center align-items-center h-100">
-                    <img src="{{ asset('assets/imgs/home-1/brand/bigrock.png') }}" class="img-fluid" alt="BigRock" style="max-height: 50px;">
+                    <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/home-1/brand/bigrock.png') }}" class="img-fluid" alt="BigRock" style="max-height: 50px;">
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="partner-logo-item d-flex justify-content-center align-items-center h-100">
-                    <img src="{{ asset('assets/imgs/home-1/brand/emegh-logo.png') }}" class="img-fluid" alt="eMegh" style="max-height: 50px;">
+                    <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/home-1/brand/emegh-logo.png') }}" class="img-fluid" alt="eMegh" style="max-height: 50px;">
                 </div>
             </div>
         </div>
@@ -220,7 +220,7 @@
                     <p style="color: #475569; line-height: 1.8;">
                         Our trusted partners play a vital role in helping us deliver world-class healthcare technology solutions, enterprise software, and digital transformation services. Through collaboration with hospitals, healthcare organizations, technology providers, and industry experts, we continue to create innovative solutions that improve operational efficiency and patient care.
                     </p>
-                    <p class="mb-0 fw-bold" style="color: #15803d;">
+                    <p class="mb-0 fw-bold" style="color: #4C1D95;">
                         Together, we are building a smarter, more connected, and technology-driven future.
                     </p>
                 </div>
@@ -252,7 +252,7 @@
 </section>
 
 <!-- Partner Network Section -->
-<section class="services-section section-spacing py-5" style="background: linear-gradient(135deg, #f8fafc 0%, #f0fdf4 100%);">
+<section class="services-section section-spacing py-5" style="background: linear-gradient(135deg, #F8FAFF 0%, #F0F4FF 100%);">
     <div class="container">
         <div class="text-center mb-5">
             <span class="section-badge">Collaboration</span>
@@ -347,8 +347,8 @@
     <div class="container rr-container-1350">
         <div class="cta-section__wrapper" data-background="{{ asset('assets/imgs/home-3/shape/cta-3-bg.png') }}">
             <div class="section-title-3__wrapper tx-center">
-                <h2 class="sub-title white"><img class="left-shape" src="{{ asset('assets/imgs/home-3/shape/shape-left-white.png') }}"
-                        alt="image">Connect With Us <img class="right-shape"
+                <h2 class="sub-title white"><img loading="lazy" decoding="async" class="left-shape" src="{{ asset('assets/imgs/home-3/shape/shape-left-white.png') }}"
+                        alt="image">Connect With Us <img loading="lazy" decoding="async" class="right-shape"
                         src="{{ asset('assets/imgs/home-3/shape/shape-right-white.png') }}" alt="image"></h2>
                 <h2 class="title rr-title-anim-1 white">Request for a Quote</h2>
                 <p class="cta-section__dec">Interested in our solutions or partnership opportunities?<br>Contact us today and our team will get in touch with you.</p>

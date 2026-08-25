@@ -82,7 +82,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/iam_inventory_tracking.png?v=2" class="card-img-top" alt="Tracking" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/iam_inventory_tracking.png?v=2" class="card-img-top" alt="Tracking" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-map-location-dot me-2"></i> Inventory & Tracking</h5>
                             <p class="card-text desc small">Comprehensive inventory with real-time location, status, and usage monitoring for all organizational assets.</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/cloud_server_1783400149336.png" class="card-img-top" alt="Maintenance" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/cloud_server_1783400149336.png" class="card-img-top" alt="Maintenance" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-screwdriver-wrench me-2"></i> Maintenance & Repair</h5>
                             <p class="card-text desc small">Schedule preventive maintenance and track work orders to minimize downtime and extend asset life.</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/analytics_dashboard_1783400138562.png" class="card-img-top" alt="Valuation" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/analytics_dashboard_1783400138562.png" class="card-img-top" alt="Valuation" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-chart-line me-2"></i> Depreciation & Valuation</h5>
                             <p class="card-text desc small">Track asset depreciation, maintain accurate valuations, and support financial reporting and compliance.</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/security_lock_1783400190184.png" class="card-img-top" alt="Risk" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/security_lock_1783400190184.png" class="card-img-top" alt="Risk" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-shield-halved me-2"></i> Risk & Lifecycle</h5>
                             <p class="card-text desc small">Mitigate risks (theft, damage, obsolescence) and plan for asset disposal, retirement, or replacement.</p>

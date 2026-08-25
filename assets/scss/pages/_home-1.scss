@@ -56,7 +56,7 @@
 
         .rr-btn-green {
             &.has--drk-gren {
-                background: #173401;
+                background: #021a30;
 
                 .btn-wrap {
                     .text-one {
@@ -140,7 +140,7 @@
             align-items: center;
             border-radius: 100px;
             display: inline-flex;
-            background: #173401;
+            background: #021a30;
             backdrop-filter: blur(6px);
 
             ul {
@@ -441,7 +441,7 @@
             padding: 18px;
             border-radius: 8px;
             align-items: center;
-            background: #173401;
+            background: #021a30;
             justify-content: center;
             margin-bottom: 48px;
 
@@ -488,7 +488,7 @@
         &-next {
             border-radius: 16px;
             background: var(--white);
-            border: 1px solid #A0EA71;
+            border: 1px solid #7444FD;
 
             .service__item .icon {
                 background: var(--green);
@@ -1008,7 +1008,7 @@
                 border: 1px solid rgba(23, 52, 1, 0.32);
 
                 &:last-child {
-                    background: #173401;
+                    background: #021a30;
                     color: var(--white);
                 }
 
@@ -1053,7 +1053,7 @@
 
                 li {
                     font-size: 14px;
-                    color: #173401;
+                    color: #021a30;
                     font-weight: 600;
                     line-height: 20px;
                     padding: 6px 16px;
@@ -1158,11 +1158,11 @@
             .rr-btn-green {
                 width: 100%;
                 padding: 9px 15px;
-                border: 1px solid #A0EA71;
+                border: 1px solid #7444FD;
                 background: transparent;
 
                 &::before {
-                    background: #A0EA71;
+                    background: #7444FD;
                 }
 
                 .btn-wrap {
@@ -1196,7 +1196,7 @@
                 }
 
                 span {
-                    color: #22c55e;
+                    color: #7444FD;
                     font-size: 7px;
                     width: 15px;
                     height: 15px;
@@ -1206,7 +1206,7 @@
                     color: var(--white);
                     border-radius: 500px;
                     margin-right: 10px;
-                    background: #173401;
+                    background: #021a30;
                 }
             }
         }
@@ -1236,7 +1236,7 @@
             transition: color 0.3s ease;
 
             &.active {
-                color: #22c55e;
+                color: #7444FD;
             }
         }
 
@@ -1277,7 +1277,7 @@
             }
 
             input:checked+.switcher {
-                background-color: #22c55e;
+                background-color: #7444FD;
             }
 
             input:checked+.switcher:before {
@@ -1305,7 +1305,7 @@
     &__item {
         border-radius: 16px;
         padding: 24px 32px;
-        border: 1px solid #A0EA71;
+        border: 1px solid #7444FD;
         width: 100%;
         box-shadow: 0 4px 100px 0 rgba(23, 52, 1, 0.08);
 
@@ -1375,7 +1375,7 @@
                 box-shadow: 0 5px 13px -5px rgba(16, 25, 40, 0.05), 0 2px 4px -1px rgba(16, 25, 40, 0.02);
 
                 &:hover {
-                    color: #635BFF;
+                    color: #7444FD;
                 }
             }
         }
@@ -1450,7 +1450,7 @@
                 box-shadow: 0 5px 13px -5px rgba(16, 25, 40, 0.05), 0 2px 4px -1px rgba(16, 25, 40, 0.02);
 
                 &:hover {
-                    color: #635BFF;
+                    color: #7444FD;
                 }
             }
         }
@@ -1497,7 +1497,7 @@
         &__wrapper {
 
             .sub-title {
-                background: #173401;
+                background: #021a30;
                 color: var(--white);
                 border: 1px solid rgba(201, 201, 200, 0.24);
             }
@@ -1778,7 +1778,7 @@
         transition: all 0.3s;
 
         &:hover {
-            background: #173401;
+            background: #021a30;
             color: var(--white);
         }
     }

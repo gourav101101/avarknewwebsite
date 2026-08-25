@@ -31,47 +31,43 @@
     /* === sticky header Js (index 02) === */
     function pinned_header() {
         var lastScrollTop = 0;
+        var ticking = false;
+        var stickyHeader = document.querySelector('.header-sticky');
+        var sideInfo = document.querySelector('.side-info');
+        var offcanvasOverlay = document.querySelector('.offcanvas-overlay');
 
-        windowOn.on('scroll', function () {
-            var currentScrollTop = $(this).scrollTop();
+        if (!stickyHeader) return;
+
+        function updateHeader() {
+            var currentScrollTop = window.scrollY || document.documentElement.scrollTop;
             if (currentScrollTop > lastScrollTop) {
-                $('.header-sticky').removeClass('sticky');
-                $('.header-sticky').addClass('transformed');
-            } else if ($(this).scrollTop() <= 500) {
-                $('.header-sticky').removeClass('sticky');
-                $('.header-sticky').removeClass('transformed');
+                stickyHeader.classList.remove('sticky');
+                stickyHeader.classList.add('transformed');
+            } else if (currentScrollTop <= 500) {
+                stickyHeader.classList.remove('sticky', 'transformed');
             } else {
-                // Scrolling up, remove the class
-                $('.header-sticky').addClass('sticky');
-                $('.header-sticky').removeClass('transformed');
+                stickyHeader.classList.add('sticky');
+                stickyHeader.classList.remove('transformed');
+            }
+            if (sideInfo && sideInfo.classList.contains('info-open')) {
+                sideInfo.classList.remove('info-open');
+                if (offcanvasOverlay) offcanvasOverlay.classList.remove('overlay-open');
             }
             lastScrollTop = currentScrollTop;
-        });
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', function () {
+            if (!ticking) {
+                window.requestAnimationFrame(updateHeader);
+                ticking = true;
+            }
+        }, { passive: true });
     }
     pinned_header();
 
     /* === Register GSAP Plugins Js (index 02) === */
-    gsap.registerPlugin(ScrollTrigger, ScrollSmoother, CustomEase);
-
-    /* === Smooth active Js (index 03) === */
-    var device_width = window.screen.width;
-
-    if (device_width > 767) {
-        if (document.querySelector("#has_smooth").classList.contains("has-smooth")) {
-            const smoother = ScrollSmoother.create({
-                // smooth: 0.9,
-                smooth: 1.5,
-                effects: device_width < 1025 ? false : true,
-                smoothTouch: 0.1,
-                // normalizeScroll: false,
-                normalizeScroll: {
-                    allowNestedScroll: true,
-                },
-                ignoreMobileResize: true,
-            });
-        }
-
-    }
+    gsap.registerPlugin(ScrollTrigger);
 
     /* === GSAP Fade Animation Js (index 04) === */
     let fadeArray_items = document.querySelectorAll(".fade-anim");
@@ -205,13 +201,6 @@
         $(".offcanvas-overlay").addClass("overlay-open");
     });
 
-    $(window).scroll(function () {
-        if ($("body").scrollTop() > 0 || $("html").scrollTop() > 0) {
-            $(".side-info").removeClass("info-open");
-            $(".offcanvas-overlay").removeClass("overlay-open");
-        }
-    });
-
     /* === Mean menu activation  Js (index 07) === */
     $('.main-menu').meanmenu({
         meanScreenWidth: "1199",
@@ -230,23 +219,6 @@
             type: 'iframe',
         });
     }
-
-    /* === Text Invert With Scroll Js (index 09) === */
-    const split = new SplitText(".text-invert", { type: "lines" });
-    split.lines.forEach((target) => {
-        gsap.to(target, {
-            backgroundPositionX: 0,
-            ease: "none",
-            scrollTrigger: {
-                trigger: target,
-                scrub: 1,
-                start: 'top 85%',
-                end: "bottom center",
-            }
-        });
-    });
-
-
 
     /* === gsap nav Js (index 10) === */
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

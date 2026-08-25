@@ -27,7 +27,7 @@
 <div class="container rr-container-1350">
     <div class="service-details__top">
     <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="{{ asset('assets/imgs/inner/service-detils/Enterprise-Integration-Services-kp01.png') }}" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
+        <img loading="eager" decoding="async" fetchpriority="high" src="{{ asset('assets/imgs/inner/service-detils/Enterprise-Integration-Services-kp01.png') }}" alt="img" class="img-fluid" style="max-height: 400px; width: auto; display: block; margin: 0 auto;">
     </div>
     </div>
     <div class="row">
@@ -47,7 +47,7 @@
         </div>
         </div>
         <div class="media mt-4" data-aos="fade-up" data-aos-duration="900">
-            <img src="assets/imgs/inner/service-detils/Enterprice-System-Integration.jpg" alt="img" class="img-fluid">
+            <img loading="lazy" decoding="async" src="assets/imgs/inner/service-detils/Enterprice-System-Integration.jpg" alt="img" class="img-fluid">
         </div>
     </div>
     <div class="col-lg-8 col-12">
@@ -67,12 +67,12 @@
             <!-- We Specialize In - Badge Grid -->
             <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">We Specialize In</h2>
             <div class="service-features-grid" data-aos="fade-up" data-aos-duration="900">
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> ERP & CRM Integration</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> API Development & Integration</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Legacy System Integration</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Cloud-to-Cloud & Hybrid Integration</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Data Synchronization & Automation</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Third-Party Software Integration</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> ERP & CRM Integration</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> API Development & Integration</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Legacy System Integration</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Cloud-to-Cloud & Hybrid Integration</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Data Synchronization & Automation</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Third-Party Software Integration</span>
             </div>
             <div class="service-intro-text" data-aos="fade-up" data-aos-duration="900">
                 <p>Our team designs secure, scalable, and future-ready integration architectures that align with your long-term digital strategy.</p>
@@ -83,14 +83,14 @@
             <!-- Key Benefits - Badge Grid -->
             <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Key Benefits</h2>
             <div class="service-features-grid" data-aos="fade-up" data-aos-duration="900">
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Elimination of data silos</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Real-time data synchronization</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Improved operational efficiency</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Automated workflows across departments</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Enhanced reporting & decision-making</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Reduced manual errors</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Scalable integration architecture</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Improved customer & employee experience</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Elimination of data silos</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Real-time data synchronization</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Improved operational efficiency</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Automated workflows across departments</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Enhanced reporting & decision-making</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Reduced manual errors</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Scalable integration architecture</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Improved customer & employee experience</span>
             </div>
 
             <hr class="service-section-divider">
@@ -103,9 +103,9 @@
                     <div id="eif1" class="accordion-collapse collapse show" data-bs-parent="#eiFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>API Development & Management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Middleware & Integration Frameworks</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Data Mapping & Transformation</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>API Development & Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Middleware & Integration Frameworks</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Data Mapping & Transformation</span></li>
                             </ul>
                         </div>
                     </div>
@@ -115,9 +115,9 @@
                     <div id="eif2" class="accordion-collapse collapse" data-bs-parent="#eiFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Cloud & On-Premise System Integration</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>ERP, CRM & Accounting Software Integration</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Payment Gateway & Third-Party API Integration</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Cloud & On-Premise System Integration</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>ERP, CRM & Accounting Software Integration</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Payment Gateway & Third-Party API Integration</span></li>
                             </ul>
                         </div>
                     </div>
@@ -127,9 +127,9 @@
                     <div id="eif3" class="accordion-collapse collapse" data-bs-parent="#eiFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Real-Time Data Exchange</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Secure Authentication & Compliance</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Monitoring & Performance Optimization</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Real-Time Data Exchange</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Secure Authentication & Compliance</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Monitoring & Performance Optimization</span></li>
                             </ul>
                         </div>
                     </div>
@@ -158,8 +158,8 @@
 <div class="container rr-container-1350">
     <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
     <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Unify Your Business Systems <img class="right-shape"
+        <h2 class="sub-title white"><img loading="lazy" decoding="async" class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
+            alt="image">Unify Your Business Systems <img loading="lazy" decoding="async" class="right-shape"
             src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
         <h2 class="title rr-title-anim-1 white">Today Seamless Integration. Smarter Operations. Faster Growth.</h2>
         <p class="cta-section__dec">Break down system barriers and build a connected enterprise with Avark’s integration expertise.</p>

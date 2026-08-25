@@ -28,7 +28,7 @@
 
     &__content {
         .sub-title {
-            color: #004FFC;
+            color: #7444FD;
             font-size: 20px;
             font-weight: 600;
             line-height: 28px;
@@ -662,7 +662,7 @@
         overflow: hidden;
         position: relative;
         border-radius: 32px;
-        background: linear-gradient(90deg, #0E0E0C 0%, #004FFC 100%);
+        background: linear-gradient(90deg, #0E0E0C 0%, #7444FD 100%);
     }
 
     &__top {
@@ -1316,7 +1316,7 @@
         margin: 0 24px;
         position: relative;
         border-radius: 32px;
-        background: linear-gradient(90deg, #004FFC 0%, #0E0E0C 100%);
+        background: linear-gradient(90deg, #7444FD 0%, #0E0E0C 100%);
 
         @media #{$sm} {
             margin: 0;
@@ -1763,7 +1763,7 @@
             align-items: center;
 
             i {
-                color: #004FFC;
+                color: #7444FD;
             }
 
         }
@@ -1819,7 +1819,7 @@
             padding: 4px 12px;
             border-radius: 4px;
             color: var(--white);
-            background: #004FFC;
+            background: #7444FD;
         }
     }
 }

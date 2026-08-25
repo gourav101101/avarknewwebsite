@@ -82,7 +82,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/esm_ticketing.png?v=2" class="card-img-top" alt="Ticketing" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/esm_ticketing.png?v=2" class="card-img-top" alt="Ticketing" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-ticket me-2"></i> Ticketing & Routing</h5>
                             <p class="card-text desc small">Centralized ticket tracking with automated routing, skill-based assignment, priority escalation, and SLA management.</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/esm_multichannel.png?v=2" class="card-img-top" alt="Multichannel" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/esm_multichannel.png?v=2" class="card-img-top" alt="Multichannel" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-headset me-2"></i> Multichannel Support</h5>
                             <p class="card-text desc small">Connect via Email, Phone, Live Chat, Web Portals, and Social Media. Maintain comprehensive customer profiles and history.</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/esm_knowledge.png?v=2" class="card-img-top" alt="Knowledge Base" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/esm_knowledge.png?v=2" class="card-img-top" alt="Knowledge Base" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-book-open me-2"></i> Knowledge & Collaboration</h5>
                             <p class="card-text desc small">Centralized knowledge repository (FAQs, guides) for self-service, plus internal collaboration tools for support teams.</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/esm_ai_automation.png?v=2" class="card-img-top" alt="AI & Automation" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/esm_ai_automation.png?v=2" class="card-img-top" alt="AI & Automation" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-robot me-2"></i> AI & Automation</h5>
                             <p class="card-text desc small">Leverage chatbots, automated responses, and intelligent ticket categorization to accelerate service delivery.</p>

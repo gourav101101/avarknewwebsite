@@ -82,7 +82,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/opd_patient_queue.png?v=2" class="card-img-top" alt="Patient Management" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/opd_patient_queue.png?v=2" class="card-img-top" alt="Patient Management" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-users me-2"></i> Patient & Queue Management</h5>
                             <p class="card-text desc small">Seamless patient registration, demographics, and digital profiles. Organize patient queues with digital tokens to ensure smooth operations and reduced wait times.</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/opd_appointments.png?v=2" class="card-img-top" alt="Scheduling" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/opd_appointments.png?v=2" class="card-img-top" alt="Scheduling" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-calendar-check me-2"></i> Appointments & Resources</h5>
                             <p class="card-text desc small">Doctor-wise scheduling, online booking, and calendar management. Efficiently allocate doctors, staff, and consultation rooms.</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/opd_emr_prescription.png?v=2" class="card-img-top" alt="EMR" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/opd_emr_prescription.png?v=2" class="card-img-top" alt="EMR" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-file-medical me-2"></i> EMR & Prescriptions</h5>
                             <p class="card-text desc small">Integrate with EMR for clinical records, previous diagnoses, and lab results. Manage electronic prescriptions and drug interactions securely.</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/opd_billing_analytics.png?v=2" class="card-img-top" alt="Billing" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/opd_billing_analytics.png?v=2" class="card-img-top" alt="Billing" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-file-invoice-dollar me-2"></i> Billing & Analytics</h5>
                             <p class="card-text desc small">Automate consultation fee calculation, receipts, and insurance billing. Generate detailed reports on patient flow and doctor performance.</p>

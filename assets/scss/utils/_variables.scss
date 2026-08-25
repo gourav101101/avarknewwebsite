@@ -19,23 +19,28 @@
 
 /* === Colors variable scss (index 01) === */
 :root {
-  --primary: #004FFC;
+  --primary: #7444FD;
+  --primary-hover: #5B2EE5;
+  --primary-dark: #4C1D95;
+  --primary-soft: #EEE9FF;
   --primary4: #7444FD;
-  --primary5: #384BFF;
+  --primary5: #7444FD;
   --secondary: #646463;
   --black: #0E0E0C;
-  --green: #A0EA71;
+  --green: #7444FD;
   --white: #FFF;
   --red: #f14f44;
-  --lime-green: #90ee02;
+  --lime-green: #7444FD;
   --orange: #FF5914;
   --yellow: #f3ff0a;
-  --purple: #5814f9;
+  --purple: #7444FD;
   --white: #ffffff;
   --gray: #999;
-  --bg: #F6F6F6;
+  --bg: #F8FAFF;
   --gray-two: #555555;
-  --gray-three: #F0F2F4;
+  --gray-three: #F0F4FF;
+  --site-bg-soft: #F0F4FF;
+  --site-bg-subtle: #F8FAFF;
   --border-color-one: rgba(255, 255, 255, 0.1);
   --border-color-two: #DADADA;
 }

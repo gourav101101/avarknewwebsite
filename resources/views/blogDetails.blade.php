@@ -54,7 +54,7 @@
                 <div class="col-12 col-lg-8">
                     <div class="details-image">
                         @if($blog->image)
-                            <img src="{{ asset($blog->image) }}" alt="{{ $blog->title }}" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
+                            <img loading="eager" decoding="async" fetchpriority="high" src="{{ asset($blog->image) }}" alt="{{ $blog->title }}" style="width: 100%; border-radius: 12px; margin-bottom: 20px;">
                         @endif
                     </div>
                     <div class="news-details-content">
@@ -70,7 +70,7 @@
                       <div class="client-info-item">
                         <div class="client-info">
                           <div class="image">
-                            <img src="{{ asset('assets/imgs/inner/blog-details/author.jpg') }}" alt="img">
+                            <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/inner/blog-details/author.jpg') }}" alt="img">
                           </div>
                           <h4>Michel Clarck</h4>
                         </div>
@@ -139,9 +139,9 @@
                                 <div class="recent-items">
                                     <div class="recent-thumb">
                                         @if($recent->image)
-                                            <img src="{{ asset($recent->image) }}" alt="{{ $recent->title }}">
+                                            <img loading="lazy" decoding="async" src="{{ asset($recent->image) }}" alt="{{ $recent->title }}">
                                         @else
-                                            <img src="{{ asset('assets/imgs/inner/blog/blog-3.jpg') }}" alt="img">
+                                            <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/inner/blog/blog-3.jpg') }}" alt="img">
                                         @endif
                                     </div>
                                     <div class="recent-content">

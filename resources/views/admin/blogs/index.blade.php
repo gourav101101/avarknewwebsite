@@ -46,7 +46,7 @@
                     <tr>
                         <td>
                             @if($blog->image)
-                                <img src="{{ asset($blog->image) }}" alt="" class="table-thumb">
+                                <img loading="lazy" decoding="async" src="{{ asset($blog->image) }}" alt="" class="table-thumb">
                             @else
                                 <div class="table-thumb" style="background: var(--admin-surface-hover); display: flex; align-items: center; justify-content: center;">
                                     <i class="fa-regular fa-image" style="color: var(--admin-text-dim);"></i>

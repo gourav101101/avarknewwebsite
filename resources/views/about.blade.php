@@ -12,18 +12,18 @@
     overflow: hidden;
     position: relative;
     border-radius: 32px;
-    background: linear-gradient(90deg, #0E0E0C 0%, #198754 100%);
+    background: #7444FD ;
   }
 
   .counter__item.item-2 {
-    background: #9dd3ce;
+    background: var(--site-bg-soft, #F0F4FF);
   }
 
   .service-details .analytics {
     padding: 40px 32px;
     position: relative;
     border-radius: 16px;
-    background: linear-gradient(90deg, #198754 0%, var(--Text-Primary, #c9c939) 100%), var(--BG-Sedentary, #F6F6F6);
+    background: linear-gradient(135deg, #7444FD 0%, #4C1D95 100%);
   }
 </style>
 
@@ -46,23 +46,23 @@
 
 <section class="about-section-2 section-spacing-top-120 fade-wrapper">
   <div class="shape-4">
-    <img src="assets/imgs/shape/about-shape-4.png" alt="shape">
+    <img loading="lazy" decoding="async" src="assets/imgs/shape/about-shape-4.png" alt="shape">
   </div>
   <div class="shape-5">
-    <img src="assets/imgs/shape/about-shape-5.png" alt="shape">
+    <img loading="lazy" decoding="async" src="assets/imgs/shape/about-shape-5.png" alt="shape">
   </div>
   <div class="container rr-container-1350">
     <div class="about-section-2__wrapper ">
       <div class="about-section-2__box" data-aos="fade-right" data-aos-duration="900">
         <div class="shapes">
           <div class="shape-1">
-            <img src="assets/imgs/home-3/about/about1.png" alt="img not found">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-3/about/about1.png" alt="img not found">
           </div>
           <div class="shape-2 shape-animaiton1">
-            <img src="assets/imgs/home-3/about/about2.png" alt="img not found">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-3/about/about2.png" alt="img not found">
           </div>
           <div class="shape-3 shape-animaiton1">
-            <img src="assets/imgs/home-3/about/about3.png" alt="img not found">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-3/about/about3.png" alt="img not found">
           </div>
         </div>
       </div>
@@ -107,62 +107,62 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep.png" alt="image">
           </div>
         </div>
         <div class="swiper-slide">
           <div class="brand-3__item">
-            <img src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/brand/kuldeep1.png" alt="image">
           </div>
         </div>
       </div>
@@ -177,7 +177,7 @@
       <div class="col-lg-4">
         <div class="blog__item" data-aos="fade-up" data-aos-duration="1000">
           <div class="media" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/home-1/blog/kpm/Vision.png" alt="image not fond">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/blog/kpm/Vision.png" alt="image not fond">
           </div>
           <div class="content">
             <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Vision</a></h2>
@@ -194,7 +194,7 @@
       <div class="col-lg-4">
         <div class="blog__item" data-aos="fade-up" data-aos-duration="1000">
           <div class="media" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/home-1/blog/kpm/Ethics.png" alt="image not fond">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/blog/kpm/Ethics.png" alt="image not fond">
           </div>
           <div class="content">
             <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Ethics</a></h2>
@@ -210,7 +210,7 @@
       <div class="col-lg-4">
         <div class="blog__item" data-aos="fade-up" data-aos-duration="1000">
           <div class="media" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/home-1/blog/kpm/CustomerFocus.png" alt="image not fond">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/blog/kpm/CustomerFocus.png" alt="image not fond">
           </div>
           <div class="content">
             <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Customer Focus</a></h2>
@@ -230,7 +230,7 @@
       <div class="col-lg-4">
         <div class="blog__item" data-aos="fade-up" data-aos-duration="1000">
           <div class="media" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/home-1/blog/kpm/Accountability.png" alt="image not fond">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/blog/kpm/Accountability.png" alt="image not fond">
           </div>
           <div class="content">
             <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Accountability</a></h2>
@@ -247,7 +247,7 @@
       <div class="col-lg-4">
         <div class="blog__item" data-aos="fade-up" data-aos-duration="1000">
           <div class="media" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/home-1/blog/kpm/Respect.png" alt="image not fond">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/blog/kpm/Respect.png" alt="image not fond">
           </div>
           <div class="content">
             <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Respect</a></h2>
@@ -264,7 +264,7 @@
       <div class="col-lg-4">
         <div class="blog__item" data-aos="fade-up" data-aos-duration="1000">
           <div class="media" data-aos="zoom-in" data-aos-duration="900">
-            <img src="assets/imgs/home-1/blog/kpm/Speed.png" alt="image not fond">
+            <img loading="lazy" decoding="async" src="assets/imgs/home-1/blog/kpm/Speed.png" alt="image not fond">
           </div>
           <div class="content">
             <h2 class="title rr-title-anim-1"><a href="{{ route('about') }}">Speed</a></h2>
@@ -320,7 +320,7 @@
   <div class="container rr-container-1350">
     <div class="service-details__top">
       <div class="media aos-init aos-animate" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/home-3/about/about1.png" alt="img">
+        <img loading="lazy" decoding="async" src="assets/imgs/home-3/about/about1.png" alt="img">
       </div>
     </div>
   </div>
@@ -333,7 +333,7 @@
 <section class="crm-benefits__area section-spacing-top-120">
   <div class="crm-benefits__wrapper section-spacing-120">
     <div class="crm-benefits__shape">
-      <img src="assets/imgs/home-3/about/circle-shape-2.png" alt="shape not found">
+      <img loading="lazy" decoding="async" src="assets/imgs/home-3/about/circle-shape-2.png" alt="shape not found">
     </div>
     <div class="container rr-container-1350">
       <div class="crm-benefits__top">
@@ -341,7 +341,7 @@
           <div class="col-lg-6">
             <div class="crm-benefits__top-left" data-aos="fade-right" data-aos-duration="900">
               <div class="section-title-3__wrapper">
-                <h2 class="sub-title white"><img class="left-shape"
+                <h2 class="sub-title white"><img loading="lazy" decoding="async" class="left-shape"
                     src="assets/imgs/home-3/shape/shape-left-white.png" alt="image">Avark HMS</h2>
                 <h2 class="title rr-title-anim-1 white">Smart Healthcare. Simplified Management.</h2>
               </div>
@@ -359,13 +359,13 @@
         <div class="col-lg-8">
           <div class="crm-benefits__thumb" data-aos="zoom-in" data-aos-duration="900">
             <div class="image-1">
-              <img src="assets/imgs/home-3/about/about-apointment.jpeg" alt="image not found">
+              <img loading="lazy" decoding="async" src="assets/imgs/home-3/about/about-apointment.jpeg" alt="image not found">
             </div>
             <!--<div class="image-2 shape-animaiton1">-->
-            <!--  <img src="assets/imgs/home-3/about/about-page.jpeg" alt="image not found">-->
+            <!--  <img loading="lazy" decoding="async" src="assets/imgs/home-3/about/about-page.jpeg" alt="image not found">-->
             <!--</div>-->
             <!--<div class="image-3 shape shape-animaiton1">-->
-            <!--  <img src="assets/imgs/home-3/about/patient list.jpeg" alt="image not found">-->
+            <!--  <img loading="lazy" decoding="async" src="assets/imgs/home-3/about/patient list.jpeg" alt="image not found">-->
             <!--</div>-->
           </div>
         </div>
@@ -374,7 +374,7 @@
             <div class="crm-benefits__item" data-aos="fade-left" data-aos-duration="900">
               <div class="crm-benefits__info">
                 <div class="crm-benefits__icon">
-                  <img src="assets/imgs/icon/icon-05.png" alt="icon not found">
+                  <img loading="lazy" decoding="async" src="assets/imgs/icon/icon-05.png" alt="icon not found">
                 </div>
                 <h3 class="crm-benefits__title">Patient Management</h3>
               </div>
@@ -383,7 +383,7 @@
             <div class="crm-benefits__item" data-aos="fade-left" data-aos-duration="900">
               <div class="crm-benefits__info">
                 <div class="crm-benefits__icon">
-                  <img src="assets/imgs/icon/icon-06.png" alt="icon not found">
+                  <img loading="lazy" decoding="async" src="assets/imgs/icon/icon-06.png" alt="icon not found">
                 </div>
                 <h3 class="crm-benefits__title">Appointment Management</h3>
               </div>
@@ -392,7 +392,7 @@
             <div class="crm-benefits__item" data-aos="fade-left" data-aos-duration="900">
               <div class="crm-benefits__info">
                 <div class="crm-benefits__icon">
-                  <img src="assets/imgs/icon/icon-07.png" alt="icon not found">
+                  <img loading="lazy" decoding="async" src="assets/imgs/icon/icon-07.png" alt="icon not found">
                 </div>
                 <h3 class="crm-benefits__title">Billing & Accounts</h3>
               </div>
@@ -411,7 +411,7 @@
   <div class="container rr-container-1350">
     <div class="our-integrations__top">
       <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left.png" alt="image">Digital Integrations <img class="right-shape" src="assets/imgs/home-3/shape/shape-right.png" alt="image"></h2>
+        <h2 class="sub-title"><img loading="lazy" decoding="async" class="left-shape" src="assets/imgs/home-3/shape/shape-left.png" alt="image">Digital Integrations <img loading="lazy" decoding="async" class="right-shape" src="assets/imgs/home-3/shape/shape-right.png" alt="image"></h2>
         <h2 class="title rr-title-anim-1">Connect Your Digital Ecosystem</h2>
         <p class="desc">Enhance your IT infrastructure by integrating with the tools and platforms your business already relies on. 
           From cloud services and CRM systems to payment gateways and enterprise applications — everything works together seamlessly for maximum efficiency.</p>
@@ -419,26 +419,26 @@
     </div>
     <div class="our-integrations__wrapper">
       <div class="our-integrations__border tx-center d-none d-lg-block">
-        <img src="assets/imgs/home-3/shape/border-shape-3_01.png" alt="border not found">
+        <img loading="lazy" decoding="async" src="assets/imgs/home-3/shape/border-shape-3_01.png" alt="border not found">
       </div>
       <div class="our-integrations__brand">
         <div class="our-integrations__item item_1" style="translate: none; rotate: none; scale: none; transform: translate(-50%, -50%) translate3d(-100.037px, -26.1141px, 0px);">
-          <img src="assets/imgs/home-3/brand/brand-7.png" alt="logo not found">
+          <img loading="lazy" decoding="async" src="assets/imgs/home-3/brand/brand-7.png" alt="logo not found">
         </div>
         <div class="our-integrations__item item_2" style="translate: none; rotate: none; scale: none; transform: translate(-50%, -50%) translate3d(-124.142px, 0px, 0px);">
-          <img src="assets/imgs/home-3/brand/brand-8.png" alt="logo not found">
+          <img loading="lazy" decoding="async" src="assets/imgs/home-3/brand/brand-8.png" alt="logo not found">
         </div>
         <div class="our-integrations__item item_3" style="translate: none; rotate: none; scale: none; transform: translate(-50%, -50%) translate3d(-98.631px, 25.7124px, 0px);">
-          <img src="assets/imgs/home-3/brand/brand-9.png" alt="logo not found">
+          <img loading="lazy" decoding="async" src="assets/imgs/home-3/brand/brand-9.png" alt="logo not found">
         </div>
         <div class="our-integrations__item item_4" style="translate: none; rotate: none; scale: none; transform: translate(-50%, -50%) translate3d(100.037px, -26.1141px, 0px);">
-          <img src="assets/imgs/home-3/brand/brand-10.png" alt="logo not found">
+          <img loading="lazy" decoding="async" src="assets/imgs/home-3/brand/brand-10.png" alt="logo not found">
         </div>
         <div class="our-integrations__item item_5" style="translate: none; rotate: none; scale: none; transform: translate(-50%, -50%) translate3d(123.54px, 0px, 0px);">
-          <img src="assets/imgs/home-3/brand/brand-11.png" alt="logo not found">
+          <img loading="lazy" decoding="async" src="assets/imgs/home-3/brand/brand-11.png" alt="logo not found">
         </div>
         <div class="our-integrations__item item_6" style="translate: none; rotate: none; scale: none; transform: translate(-50%, -50%) translate3d(98.631px, 25.7124px, 0px);">
-          <img src="assets/imgs/home-3/brand/brand-12.png" alt="logo not found">
+          <img loading="lazy" decoding="async" src="assets/imgs/home-3/brand/brand-12.png" alt="logo not found">
         </div>
       </div>
       <div class="our-integrations__btn">

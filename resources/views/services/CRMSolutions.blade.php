@@ -27,7 +27,7 @@
 <div class="container rr-container-1350">
     <div class="service-details__top">
     <div class="media" data-aos="zoom-in" data-aos-duration="900">
-        <img src="assets/imgs/inner/service-detils/crm-services-kp.png" alt="img">
+        <img loading="eager" decoding="async" fetchpriority="high" src="assets/imgs/inner/service-detils/crm-services-kp.png" alt="img">
     </div>
     </div>
     <div class="row">
@@ -47,7 +47,7 @@
         </div>
         </div>
         <div class="media" data-aos="fade-up" data-aos-duration="900">
-            <img src="{{ asset('assets/imgs/inner/service-detils/Solution-PNG.png') }}" alt="CRM Solutions">
+            <img loading="lazy" decoding="async" src="{{ asset('assets/imgs/inner/service-detils/Solution-PNG.png') }}" alt="CRM Solutions">
         </div>
     </div>
     <div class="col-lg-8 col-12">
@@ -92,11 +92,11 @@
                         <div class="accordion-body">
                             <p>Efficiently store, organize, and manage customer information, including:</p>
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Contact details</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Purchase history</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Communication records</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Customer preferences</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Interaction history</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Contact details</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Purchase history</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Communication records</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Customer preferences</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Interaction history</span></li>
                             </ul>
                             <p>A centralized customer database enables quick access to information and improves collaboration across teams.</p>
                         </div>
@@ -108,11 +108,11 @@
                         <div class="accordion-body">
                             <p>Streamline sales processes by managing:</p>
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Leads and prospects</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Opportunities and deals</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Sales pipelines</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Follow-ups and reminders</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Quotation and proposal management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Leads and prospects</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Opportunities and deals</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Sales pipelines</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Follow-ups and reminders</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Quotation and proposal management</span></li>
                             </ul>
                             <p>Sales automation helps improve productivity and increases conversion rates.</p>
                         </div>
@@ -124,11 +124,11 @@
                         <div class="accordion-body">
                             <p>Create, manage, and execute targeted marketing campaigns with features such as:</p>
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Email marketing</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Campaign management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Audience segmentation</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Lead nurturing</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Marketing analytics</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Email marketing</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Campaign management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Audience segmentation</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Lead nurturing</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Marketing analytics</span></li>
                             </ul>
                             <p>Marketing automation enables businesses to engage customers more effectively and improve campaign performance.</p>
                         </div>
@@ -140,11 +140,11 @@
                         <div class="accordion-body">
                             <p>Deliver exceptional customer experiences by efficiently handling:</p>
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Customer inquiries</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Complaint management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Ticketing and issue resolution</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Service requests</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Customer feedback</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Customer inquiries</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Complaint management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Ticketing and issue resolution</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Service requests</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Customer feedback</span></li>
                             </ul>
                             <p>A robust CRM system ensures timely support and improved customer satisfaction.</p>
                         </div>
@@ -156,11 +156,11 @@
                         <div class="accordion-body">
                             <p>Generate meaningful insights from customer data through:</p>
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Sales reports</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Customer behavior analysis</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Performance dashboards</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Revenue forecasting</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Business intelligence reports</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Sales reports</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Customer behavior analysis</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Performance dashboards</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Revenue forecasting</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Business intelligence reports</span></li>
                             </ul>
                             <p>Advanced analytics support better decision-making and strategic planning.</p>
                         </div>
@@ -194,9 +194,9 @@
                     <div id="crmf1" class="accordion-collapse collapse show" data-bs-parent="#crmFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Definition and importance of CRM systems.</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Understanding the role of CRM in modern businesses.</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>How CRM enhances customer engagement and business relationships.</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Definition and importance of CRM systems.</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Understanding the role of CRM in modern businesses.</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>How CRM enhances customer engagement and business relationships.</span></li>
                             </ul>
                         </div>
                     </div>
@@ -206,13 +206,13 @@
                     <div id="crmf2" class="accordion-collapse collapse" data-bs-parent="#crmFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Customer Database Management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Lead & Opportunity Management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Sales Pipeline Tracking</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Marketing Automation</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Task & Activity Management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Customer Support Management</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Reporting & Dashboards</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Customer Database Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Lead & Opportunity Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Sales Pipeline Tracking</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Marketing Automation</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Task & Activity Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Customer Support Management</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Reporting & Dashboards</span></li>
                             </ul>
                         </div>
                     </div>
@@ -222,12 +222,12 @@
                     <div id="crmf3" class="accordion-collapse collapse" data-bs-parent="#crmFeatures">
                         <div class="accordion-body">
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Business Requirement Analysis</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>CRM Configuration & Customization</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Data Migration</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>User Training</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Deployment & Go-Live</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Ongoing Support & Maintenance</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Business Requirement Analysis</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>CRM Configuration & Customization</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Data Migration</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>User Training</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Deployment & Go-Live</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Ongoing Support & Maintenance</span></li>
                             </ul>
                         </div>
                     </div>
@@ -262,11 +262,11 @@
                         <div class="accordion-body">
                             <p>CRM systems integrate seamlessly with existing business applications while ensuring data protection through:</p>
                             <ul>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Role-Based Access Control</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Secure Data Encryption</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Regular Data Backup</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>Compliance & Audit Trails</span></li>
-                                <li><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i><span>API Integrations</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Role-Based Access Control</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Secure Data Encryption</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Regular Data Backup</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>Compliance & Audit Trails</span></li>
+                                <li><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i><span>API Integrations</span></li>
                             </ul>
                         </div>
                     </div>
@@ -278,21 +278,21 @@
             <!-- Benefits - Badge Grid -->
             <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Benefits of CRM</h2>
             <div class="service-features-grid" data-aos="fade-up" data-aos-duration="900">
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Improved Customer Relationships</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Increased Customer Retention</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Enhanced Sales Performance</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Better Team Collaboration</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Increased Productivity</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Data-Driven Decision Making</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Improved Customer Relationships</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Increased Customer Retention</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Enhanced Sales Performance</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Better Team Collaboration</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Increased Productivity</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Data-Driven Decision Making</span>
             </div>
 
             <!-- Types - Badge Grid -->
             <h2 class="service-compact-title" data-aos="fade-up" data-aos-duration="900">Types of CRM Systems</h2>
             <div class="service-features-grid" data-aos="fade-up" data-aos-duration="900">
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Operational CRM</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Analytical CRM</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Collaborative CRM</span>
-                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #0b5edd;"></i> Strategic CRM</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Operational CRM</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Analytical CRM</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Collaborative CRM</span>
+                <span class="service-feature-badge"><i class="fa-solid fa-circle-check" style="color: #7444FD;"></i> Strategic CRM</span>
             </div>
 
         </div>
@@ -305,8 +305,8 @@
 <div class="container rr-container-1350">
     <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
         <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Call to Action <img class="right-shape"
+        <h2 class="sub-title white"><img loading="lazy" decoding="async" class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
+            alt="image">Call to Action <img loading="lazy" decoding="async" class="right-shape"
             src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
         <h2 class="title rr-title-anim-1 white">Ready to Transform Your Business?</h2>
         <p class="cta-section__dec">Experience how our CRM solution can transform your customer relationships and accelerate business growth. Schedule a personalized demo today.</p>

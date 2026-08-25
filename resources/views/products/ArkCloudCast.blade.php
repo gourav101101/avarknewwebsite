@@ -82,7 +82,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/ark_cloud_content_feedback.png?v=2" class="card-img-top" alt="Content Management" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/ark_cloud_content_feedback.png?v=2" class="card-img-top" alt="Content Management" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-layer-group me-2"></i> Content & Feedback Management</h5>
                             <p class="card-text desc small">Manage social media content, handle feedback, and monitor engagement from a single platform, eliminating the need for multiple systems.</p>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/ark_cloud_social_media.png?v=2" class="card-img-top" alt="Social Media" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/ark_cloud_social_media.png?v=2" class="card-img-top" alt="Social Media" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-hashtag me-2"></i> Social Media & Feeds</h5>
                             <p class="card-text desc small">Manage Facebook, Instagram, digital screens, and other connected channels directly to monitor your digital presence effortlessly.</p>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/ark_cloud_video_ad.png?v=2" class="card-img-top" alt="Video Management" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/ark_cloud_video_ad.png?v=2" class="card-img-top" alt="Video Management" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-film me-2"></i> Ad & Video Management</h5>
                             <p class="card-text desc small">Upload videos or broadcast live events, announcements, and promotions across connected displays to enhance customer engagement.</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/ark_cloud_multi_screen.png?v=2" class="card-img-top" alt="Multi-Screen" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/ark_cloud_multi_screen.png?v=2" class="card-img-top" alt="Multi-Screen" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-display me-2"></i> Multi-Screen Display</h5>
                             <p class="card-text desc small">Control content displayed across multiple screens at various business locations with centralized scheduling and remote updates.</p>

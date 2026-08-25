@@ -68,7 +68,7 @@
                             <input type="file" name="image" id="imageInput" accept="image/*">
                         </div>
                         <div class="image-preview" id="imagePreview" style="display: none;">
-                            <img id="previewImg" src="" alt="Preview">
+                            <img loading="lazy" decoding="async" id="previewImg" src="" alt="Preview">
                         </div>
                     </div>
 

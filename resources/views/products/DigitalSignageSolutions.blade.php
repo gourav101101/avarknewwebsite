@@ -86,7 +86,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4" data-aos="fade-up" data-aos-duration="900">
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/machine_kiosk_1783400298207.png" class="card-img-top" alt="Cloud Management" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/machine_kiosk_1783400298207.png" class="card-img-top" alt="Cloud Management" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-cloud-arrow-up me-2"></i> Cloud-Based Management</h5>
                             <p class="card-text desc small">Centralized control and automated scheduling. Manage content across multiple locations without manual intervention.</p>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-sm feature-card">
-                        <img src="assets/imgs/inner/features/cloud_server_1783400149336.png" class="card-img-top" alt="Media Automation" style="height: 180px; object-fit: cover;">
+                        <img loading="lazy" decoding="async" src="assets/imgs/inner/features/cloud_server_1783400149336.png" class="card-img-top" alt="Media Automation" style="height: 180px; object-fit: cover;">
                         <div class="card-body bg-light rounded-bottom">
                             <h5 class="card-title text-primary"><i class="fa-solid fa-photo-film me-2"></i> Media Scheduling & Automation</h5>
                             <p class="card-text desc small">Supports image, video, and live feed scheduling. Display the right message at the right time seamlessly.</p>
@@ -156,8 +156,8 @@
   <div class="container rr-container-1350">
     <div class="cta-section__wrapper" data-background="assets/imgs/home-3/shape/cta-3-bg.png">
       <div class="section-title-3__wrapper tx-center">
-        <h2 class="sub-title white"><img class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
-            alt="image">Connect With Us <img class="right-shape"
+        <h2 class="sub-title white"><img loading="lazy" decoding="async" class="left-shape" src="assets/imgs/home-3/shape/shape-left-white.png"
+            alt="image">Connect With Us <img loading="lazy" decoding="async" class="right-shape"
             src="assets/imgs/home-3/shape/shape-right-white.png" alt="image"></h2>
         <h2 class="title rr-title-anim-1 white">Ready to Upgrade Your Visual Communication? </h2>
         <p class="cta-section__dec">Modernize your communication strategy with smart digital signage. </p>
