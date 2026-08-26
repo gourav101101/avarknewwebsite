@@ -293,6 +293,14 @@
                                         <a href="{{ route('partners') }}">Partners</a>
                                     </li>
 
+                                    <li class="{{ request()->routeIs('video-shorts') ? 'is-active' : '' }}">
+                                        <a href="{{ route('video-shorts') }}">Videos</a>
+                                    </li>
+
+                                    <li class="{{ request()->routeIs('testimonials') ? 'is-active' : '' }}">
+                                        <a href="{{ route('testimonials') }}">Testimonials</a>
+                                    </li>
+
                                     <!-- <li>
                                         <a href="#">Pages</a>
                                         <ul class="dp-menu">

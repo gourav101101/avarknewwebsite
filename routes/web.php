@@ -89,6 +89,9 @@ Route::prefix('admin')->group(function () {
 
 
 
+Route::get('/video-shorts', [PageController::class, 'videoShorts'])->name('video-shorts');
+Route::get('/testimonials', [PageController::class, 'testimonials'])->name('testimonials');
+
 Route::get('/contact-us', [PageController::class, 'ContactUs'])->name('contact-us');
 Route::get('/privacy-policy', [PageController::class, 'PrivacyPolicy'])->name('privacy-policy');
 Route::get('/terms-of-use', [PageController::class, 'TermsOfUse'])->name('terms-of-use');

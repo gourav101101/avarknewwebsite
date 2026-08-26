@@ -159,6 +159,18 @@ class PageController extends Controller
     {
         return view('partners');
     }
+
+    public function videoShorts()
+    {
+        $arkHimsShorts = ArkHimsShort::active()->ordered()->get();
+        return view('video-shorts', compact('arkHimsShorts'));
+    }
+
+    public function testimonials()
+    {
+        $testimonials = Testimonial::active()->ordered()->get();
+        return view('testimonials', compact('testimonials'));
+    }
     
     public function Blogs()
     {
@@ -180,7 +192,8 @@ class PageController extends Controller
             'dialysis-management', 'enterprise-support-management',
             'digital-signage-solutions', 'opd-management-system',
             'industrial-asset-management', 'contact-us', 'privacy-policy',
-            'terms-of-use', 'refund-policy', 'cancellation-policy', 'partners', 'blogs',
+            'terms-of-use', 'refund-policy', 'cancellation-policy', 'partners',
+            'video-shorts', 'testimonials', 'blogs',
         ];
 
         $pages = collect($routeNames)->map(fn ($name) => [
