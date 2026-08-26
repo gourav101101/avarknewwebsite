@@ -24,13 +24,8 @@
     disable: function () {
       const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
       const savesData = Boolean(connection && connection.saveData);
-      const hasLowMemory = Boolean(navigator.deviceMemory && navigator.deviceMemory <= 4);
-      const hasFewCores = Boolean(navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 4);
 
-      return window.innerWidth < 1024
-        || savesData
-        || hasLowMemory
-        || hasFewCores
+      return savesData
         || window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     },
   });

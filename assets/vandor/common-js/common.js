@@ -131,13 +131,13 @@
         $(document).ready(function () {
             setTimeout(function () {
                 $('#container').addClass('loaded');
-            }, 500);
+            }, 200);
 
             setTimeout(function () {
-                $('.loader-wrap').fadeOut(1000, function () {
+                $('.loader-wrap').fadeOut(250, function () {
                     $(this).remove();
                 });
-            }, 3000);
+            }, 1800);
 
             $('.odometer').waypoint(function (direction) {
                 if (direction === 'down') {
@@ -156,24 +156,26 @@
         const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
 
         tl.to(".loader-wrap-heading .load-text , .loader-wrap-heading .cont", {
-            delay: 1.5,
-            y: -100,
+            delay: 0.45,
+            duration: 0.3,
+            y: -60,
             opacity: 0,
         });
         tl.to(svg, {
-            duration: 0.5,
+            duration: 0.25,
             attr: {
                 d: curve
             },
             ease: "power2.easeIn",
         }).to(svg, {
-            duration: 0.5,
+            duration: 0.25,
             attr: {
                 d: flat
             },
             ease: "power2.easeOut",
         });
         tl.to(".loader-wrap", {
+            duration: 0.35,
             y: -1500,
         });
         tl.to(".loader-wrap", {

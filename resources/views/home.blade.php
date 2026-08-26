@@ -1983,12 +1983,12 @@
                         <!-- Inline Stats -->
                         <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
                             <div class="hero-stats__item">
-                                <span class="hero-stats__number" data-count="500">500+</span>
+                                <span class="hero-stats__number" data-count="100">100+</span>
                                 <span class="hero-stats__label">Hospitals</span>
                             </div>
                             <div class="hero-stats__divider"></div>
                             <div class="hero-stats__item">
-                                <span class="hero-stats__number" data-count="10000">10K+</span>
+                                <span class="hero-stats__number" data-count="1000">1K</span>
                                 <span class="hero-stats__label">Active Users</span>
                             </div>
                             <div class="hero-stats__divider"></div>
@@ -2031,7 +2031,7 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star-half-stroke"></i>
                                 </div>
-                                <span>Trusted by <strong>10,000+</strong> healthcare professionals</span>
+                                <span>Trusted by <strong>1K</strong> active users</span>
                             </div>
                         </div>
 
@@ -2054,7 +2054,7 @@
                                 <i class="fa-solid fa-hospital"></i>
                             </div>
                             <div class="hero-float-card__info">
-                                <span class="hero-float-card__value">500+</span>
+                                <span class="hero-float-card__value">100+</span>
                                 <span class="hero-float-card__label">Hospitals Connected</span>
                             </div>
                         </div>
@@ -2064,7 +2064,7 @@
                                 <i class="fa-solid fa-users"></i>
                             </div>
                             <div class="hero-float-card__info">
-                                <span class="hero-float-card__value">10,000+</span>
+                                <span class="hero-float-card__value">1K</span>
                                 <span class="hero-float-card__label">Active Users</span>
                             </div>
                         </div>
