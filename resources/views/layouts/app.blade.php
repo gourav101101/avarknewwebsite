@@ -55,8 +55,12 @@
   <link rel="stylesheet" href="{{ asset('assets/vandor/animation/aos.css') }}" />
 
   <!-- Main CSS -->
-  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}?v={{ filemtime(public_path('assets/css/style.css')) }}" />
-  <link rel="stylesheet" href="{{ asset('assets/css/site-theme.css') }}?v={{ filemtime(public_path('assets/css/site-theme.css')) }}" />
+  @php
+      $mainCssPath = public_path('assets/css/style.css');
+      $themeCssPath = public_path('assets/css/site-theme.css');
+  @endphp
+  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}?v={{ substr(hash_file('sha256', $mainCssPath), 0, 12) }}" />
+  <link rel="stylesheet" href="{{ asset('assets/css/site-theme.css') }}?v={{ substr(hash_file('sha256', $themeCssPath), 0, 12) }}" />
 
   @if (request()->routeIs('home'))
   <script type="application/ld+json">{!! json_encode([

@@ -5,6 +5,12 @@
 
     RewriteEngine On
 
+    # Shared-hosting compatibility: when the domain points at the Laravel
+    # project root, always serve the canonical assets from public/assets.
+    # With the recommended public/ document root this condition is false.
+    RewriteCond %{DOCUMENT_ROOT}/public/assets/$1 -f
+    RewriteRule ^assets/(.+)$ public/assets/$1 [L]
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
