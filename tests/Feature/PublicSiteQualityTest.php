@@ -43,33 +43,31 @@ class PublicSiteQualityTest extends TestCase
 
     public function test_shared_hosting_routes_asset_requests_to_the_canonical_public_directory(): void
     {
-        foreach ([base_path('.htaccess'), public_path('.htaccess')] as $htaccess) {
-            $rules = (string) file_get_contents($htaccess);
+        $rootRules = (string) file_get_contents(base_path('.htaccess'));
+        $publicRules = (string) file_get_contents(public_path('.htaccess'));
 
-            $this->assertStringContainsString(
-                'RewriteCond %{DOCUMENT_ROOT}/public/assets/$1 -f',
-                $rules
-            );
-            $this->assertStringContainsString(
-                'RewriteRule ^assets/(.+)$ public/assets/$1 [L]',
-                $rules
-            );
-        }
+        $this->assertStringContainsString(
+            'RewriteCond %{DOCUMENT_ROOT}/public/assets/$1 -f',
+            $rootRules
+        );
+        $this->assertStringContainsString(
+            'RewriteRule ^assets/(.+)$ public/assets/$1 [L]',
+            $rootRules
+        );
+        $this->assertStringNotContainsString(
+            'RewriteRule ^assets/(.+)$ public/assets/$1 [L]',
+            $publicRules,
+            'The compatibility rule would recursively rewrite /public/assets requests.'
+        );
     }
 
-    public function test_stylesheet_urls_use_content_hashes_for_cache_busting(): void
+    public function test_stylesheet_urls_use_a_production_safe_cache_version(): void
     {
         $response = $this->get('/');
 
         $response->assertOk();
-        $response->assertSee(
-            'assets/css/style.css?v='.substr(hash_file('sha256', public_path('assets/css/style.css')), 0, 12),
-            false
-        );
-        $response->assertSee(
-            'assets/css/site-theme.css?v='.substr(hash_file('sha256', public_path('assets/css/site-theme.css')), 0, 12),
-            false
-        );
+        $response->assertSee('assets/css/style.css?v=20260826-purple-2', false);
+        $response->assertSee('assets/css/site-theme.css?v=20260826-purple-2', false);
     }
 
     public function test_public_pages_render_responsive_optimized_markup(): void

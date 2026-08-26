@@ -55,12 +55,8 @@
   <link rel="stylesheet" href="{{ asset('assets/vandor/animation/aos.css') }}" />
 
   <!-- Main CSS -->
-  @php
-      $mainCssPath = public_path('assets/css/style.css');
-      $themeCssPath = public_path('assets/css/site-theme.css');
-  @endphp
-  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}?v={{ substr(hash_file('sha256', $mainCssPath), 0, 12) }}" />
-  <link rel="stylesheet" href="{{ asset('assets/css/site-theme.css') }}?v={{ substr(hash_file('sha256', $themeCssPath), 0, 12) }}" />
+  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}?v=20260826-purple-2" />
+  <link rel="stylesheet" href="{{ asset('assets/css/site-theme.css') }}?v=20260826-purple-2" />
 
   @if (request()->routeIs('home'))
   <script type="application/ld+json">{!! json_encode([
